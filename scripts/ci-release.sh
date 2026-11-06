@@ -68,7 +68,9 @@ for slug in $changed; do
   mkdir -p "$OUT_DIR/$tag"
   rm -f "$zip_path"
 
-  # cd 进包目录后相对路径会失效，先把输出路径转成绝对路径
+  # 下面要 cd 进包目录打包，相对路径 $zip_path 会解析到包目录下面去（实测踩坑：
+  # "./.releases/<tag>/<asset>.zip" 在 cd 后变成 packs/<slug>/.releases/...，zip 直接
+  # "Could not create output file"）。先把输出路径转成绝对路径再进子 shell。
   zip_abs="$(cd "$(dirname "$zip_path")" && pwd)/$(basename "$zip_path")"
 
   # 优先系统 zip；否则用 mcpack-sync 自带的 store 打包器；最后退回 tar

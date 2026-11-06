@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Packrelay Probe",
+    "description": "Minimal pack used to validate the packrelay relay loop",
+    "uuid": "c2f55d81-ea6b-4086-ac5c-97841795f997",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "c24438c0-1c40-4f08-b5f7-dbb8810163f5",
+      "version": [1, 0, 0]
+    }
+  ]
+}

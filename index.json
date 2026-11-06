@@ -1,0 +1,26 @@
+{
+  "generatedBy": "mcpack-sync",
+  "generatedAt": "2026-11-06T10:32:34Z",
+  "packs": [
+    {
+      "uuid": "c2f55d81-ea6b-4086-ac5c-97841795f997",
+      "moduleUuid": "c24438c0-1c40-4f08-b5f7-dbb8810163f5",
+      "name": "Packrelay Probe",
+      "slug": "packrelay-probe",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "versionString": "1.0.0",
+      "fileSetHash": "815e08eca5ad6a7e461938b767253c1e75020440d5c8104dee2bbe9114d2628a",
+      "fingerprint": "9c42b5e9058cd5215e9ddd2f1d368342eae5f063dfca5027ec24366307ff0ca3",
+      "fileCount": 2,
+      "totalBytes": 5837,
+      "path": "packs/packrelay-probe",
+      "tag": "packrelay-probe-v1.0.0-9c42b5e9",
+      "assetName": "packrelay-probe-v1.0.0-9c42b5e9.zip",
+      "updatedAt": "2026-11-06T10:32:34Z"
+    }
+  ]
+}

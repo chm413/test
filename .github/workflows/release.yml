@@ -1,0 +1,32 @@
+# mcpack-sync: 由插件自动生成，请勿手工修改（升级插件时会被覆盖）
+name: release-packs
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "packs/**"
+      - "index.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-packs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2        # 需要 HEAD~1 做变更识别
+
+      - name: Detect changed packs and publish releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: bash scripts/ci-release.sh --gh

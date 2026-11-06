@@ -1,0 +1,4033 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_runtime.glassware_holder",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "holder",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                13,
+                -7
+              ],
+              "size": [
+                16,
+                3,
+                14
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    3.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    4.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    3.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    3.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    4.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    3.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "up": {
+                  "uv": [
+                    32.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -14.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "down": {
+                  "uv": [
+                    32.0,
+                    30.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -14.0
+                  ],
+                  "material_instance": "holder"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                12.9,
+                -7
+              ],
+              "size": [
+                16,
+                0,
+                14
+              ],
+              "uv": {
+                "down": {
+                  "uv": [
+                    32.0,
+                    30.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -14.0
+                  ],
+                  "material_instance": "holder_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                11,
+                5
+              ],
+              "size": [
+                16,
+                2,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    25.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "up": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "down": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                11,
+                0
+              ],
+              "size": [
+                16,
+                2,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "up": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "down": {
+                  "uv": [
+                    16.0,
+                    19.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                11,
+                -7
+              ],
+              "size": [
+                16,
+                2,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    25.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "holder"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "up": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "down": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                11,
+                -2
+              ],
+              "size": [
+                16,
+                2,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    16.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "east": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "south": {
+                  "uv": [
+                    16.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "up": {
+                  "uv": [
+                    0.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    -2.0
+                  ],
+                  "material_instance": "holder"
+                },
+                "down": {
+                  "uv": [
+                    16.0,
+                    17.0
+                  ],
+                  "uv_size": [
+                    -16.0,
+                    2.0
+                  ],
+                  "material_instance": "holder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slot_0",
+          "pivot": [
+            -4,
+            12.16,
+            -4
+          ],
+          "rotation": [
+            180,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                -1.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                5.0,
+                0,
+                5.0
+              ],
+              "uv": {
+                "up": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6,
+                12.16,
+                -6
+              ],
+              "size": [
+                4,
+                1,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -4.5,
+                13.16,
+                -4.5
+              ],
+              "size": [
+                1.0,
+                3,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                -1.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                -7.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.5,
+                21.71,
+                -6.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                -6.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    10.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                -1.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7,
+                17.21,
+                -7
+              ],
+              "size": [
+                6,
+                0,
+                6
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "up": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -4.99939,
+                16.15,
+                -5
+              ],
+              "size": [
+                2.0,
+                1.0,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 270,
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slot_1",
+          "pivot": [
+            4,
+            12.16,
+            -4
+          ],
+          "rotation": [
+            180,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                6.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                -1.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                -6.5
+              ],
+              "size": [
+                5.0,
+                0,
+                5.0
+              ],
+              "uv": {
+                "up": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                2,
+                12.16,
+                -6
+              ],
+              "size": [
+                4,
+                1,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                3.5,
+                13.16,
+                -4.5
+              ],
+              "size": [
+                1.0,
+                3,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                7.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                -1.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                -7.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                -7.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                6.5,
+                21.71,
+                -6.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                -6.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    10.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                -1.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                1,
+                17.21,
+                -7
+              ],
+              "size": [
+                6,
+                0,
+                6
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "up": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                3.00061,
+                16.15,
+                -5
+              ],
+              "size": [
+                2.0,
+                1.0,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 270,
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slot_2",
+          "pivot": [
+            -4,
+            12.16,
+            4
+          ],
+          "rotation": [
+            180,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                6.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                5.0,
+                0,
+                5.0
+              ],
+              "uv": {
+                "up": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -6,
+                12.16,
+                2
+              ],
+              "size": [
+                4,
+                1,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -4.5,
+                13.16,
+                3.5
+              ],
+              "size": [
+                1.0,
+                3,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                7.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                0.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -1.5,
+                21.71,
+                1.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                1.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    10.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7.5,
+                21.71,
+                6.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7,
+                17.21,
+                1
+              ],
+              "size": [
+                6,
+                0,
+                6
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "up": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -4.99939,
+                16.15,
+                3
+              ],
+              "size": [
+                2.0,
+                1.0,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 270,
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slot_3",
+          "pivot": [
+            4,
+            12.16,
+            4
+          ],
+          "rotation": [
+            180,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                6.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                6.5
+              ],
+              "size": [
+                5.0,
+                4.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                0,
+                4.0,
+                5.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    30.0,
+                    18.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    8.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.5,
+                17.759999999999998,
+                1.5
+              ],
+              "size": [
+                5.0,
+                0,
+                5.0
+              ],
+              "uv": {
+                "up": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    28.0,
+                    28.0
+                  ],
+                  "uv_size": [
+                    -10.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                2,
+                12.16,
+                2
+              ],
+              "size": [
+                4,
+                1,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    4.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    8.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    54.0
+                  ],
+                  "uv_size": [
+                    -8.0,
+                    -8.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                3.5,
+                13.16,
+                3.5
+              ],
+              "size": [
+                1.0,
+                3,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    6.0,
+                    38.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    6.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    4.0,
+                    32.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                7.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                7.0
+              ],
+              "size": [
+                6.0,
+                5.0,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                1.0,
+                17.16,
+                1.0
+              ],
+              "size": [
+                0,
+                5.0,
+                6.0
+              ],
+              "uv": {
+                "west": {
+                  "uv": [
+                    16.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    12.0,
+                    10.1
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                0.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                6.5,
+                21.71,
+                1.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    2.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                1.5
+              ],
+              "size": [
+                1.0,
+                0.75,
+                5.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    10.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    2.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -2.0,
+                    -10.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                0.5,
+                21.71,
+                6.5
+              ],
+              "size": [
+                7.0,
+                0.75,
+                1.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    14.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    12.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    14.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    14.0,
+                    2.0
+                  ],
+                  "uv_size": [
+                    -14.0,
+                    -2.0
+                  ],
+                  "material_instance": "glass"
+                }
+              }
+            },
+            {
+              "origin": [
+                1,
+                17.21,
+                1
+              ],
+              "size": [
+                6,
+                0,
+                6
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    14.0
+                  ],
+                  "uv_size": [
+                    10.0,
+                    12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "up": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                },
+                "down": {
+                  "uv": [
+                    44.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -12.0,
+                    -12.0
+                  ],
+                  "material_instance": "glass_unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                3.00061,
+                16.15,
+                3
+              ],
+              "size": [
+                2.0,
+                1.0,
+                2
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "east": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "south": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "west": {
+                  "uv": [
+                    8.0,
+                    46.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    2.0
+                  ],
+                  "material_instance": "glass"
+                },
+                "up": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 270,
+                  "material_instance": "glass"
+                },
+                "down": {
+                  "uv": [
+                    12.0,
+                    50.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "uv_rotation": 90,
+                  "material_instance": "glass"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

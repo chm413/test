@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.board_glyph_line": {
+      "loop": true,
+      "bones": {
+        "ink": {
+          "rotation": [
+            "q.property('kaleidoscope_tavern:tilt')",
+            0,
+            0
+          ]
+        },
+        "bold": {
+          "position": [
+            "-q.property('kaleidoscope_tavern:bold_offset')",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+Kaleidoscope Tavern — Unofficial Bedrock Edition Port
+
+Original project: Kaleidoscope Tavern by Kaleidoscope Official Production Team / YSBB.
+This Bedrock adaptation is unofficial and is not endorsed by the original developers.
+Original project source: https://github.com/KaleidoscopeMods/KaleidoscopeTavern
+Bedrock adaptation/port: Loyallay.
+Earlier Bedrock implementation/reference: casama233 and Tavern port contributors.
+Changes: Java Edition content has been adapted, reorganized, reimplemented, and
+modified for Minecraft Bedrock Edition.
+
+ORIGINAL / APPLICABLE SOURCE CODE LICENSE — BSD 3-Clause License
+
+Copyright (c) 2025, Kaleidoscope Official Production Team
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+RESOURCE FILES / ADAPTED ASSETS
+
+Original Kaleidoscope Tavern resource files:
+Copyright (c) 2025, Kaleidoscope Official Production Team
+Original project: https://github.com/KaleidoscopeMods/KaleidoscopeTavern
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+License deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Attribution / modification notice:
+- Original work: Kaleidoscope Tavern by the Kaleidoscope Official Production Team / YSBB.
+- Bedrock adaptation/port: Loyallay.
+- Earlier Bedrock implementation/reference work: casama233 and Tavern port contributors.
+- The Java Edition content has been adapted, reorganized, reimplemented, and modified
+  for Minecraft Bedrock Edition. Texture/model/file organization and supported game
+  mechanics may differ from the original Java Edition project.
+- This port is unofficial. Nothing in this package should be read as endorsement,
+  sponsorship, or official status from the original development team.
+
+CC BY-NC-SA 4.0 conditions for adapted Tavern resource material include attribution,
+noncommercial use, ShareAlike for adaptations, and no additional restrictions. See
+the linked license/legal code for the complete terms.
+
+THIRD-PARTY FONT RESOURCES
+
+Certain converted board-font resources in the resource pack retain separate upstream
+font licenses. Their required notices are distributed beside the relevant resources
+in RP/font (including NOTICE-Unifont.txt and NOTICE-Noto-Sans-CJK.txt). Those notices
+remain controlling for the font material and are not replaced by the Tavern licenses
+above.

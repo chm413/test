@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.pressing_item_display.pose": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [-5, -2.5, 1.75],
+          "rotation": [12.25, 15, -11.5]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+Kaleidoscope Tavern - Unofficial Bedrock Edition Port
+
+Original project: Kaleidoscope Tavern
+Original creator/development team: Kaleidoscope Official Production Team / YSBB
+Original project source: https://github.com/KaleidoscopeMods/KaleidoscopeTavern
+Bedrock adaptation/port and current maintenance: Loyallay
+Earlier Bedrock implementation/reference: casama233 and Tavern port contributors
+
+LICENSES
+--------
+Original/upstream source code: BSD 3-Clause License.
+Original Tavern resource files and adapted derivatives: CC BY-NC-SA 4.0.
+
+The Java Edition project has been adapted, modified, reorganized, and reimplemented
+for Minecraft Bedrock Edition. Adapted Kaleidoscope Tavern resource material in
+this port remains distributed under CC BY-NC-SA 4.0. The original BSD copyright
+notice, conditions, and disclaimer are reproduced in license.txt for applicable
+source-code material.
+
+CC BY-NC-SA 4.0:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+IMPORTANT DISTRIBUTION CONDITIONS
+---------------------------------
+- Give appropriate credit to the Kaleidoscope Official Production Team / YSBB.
+- Retain the applicable license notices and indicate that modifications were made.
+- Do not present this Bedrock port as official or endorsed by the original team.
+- Do not use CC BY-NC-SA-licensed adapted Tavern resources for commercial purposes.
+- Adaptations of those resource files must remain under CC BY-NC-SA 4.0 or an
+  allowed compatible license.
+- Do not impose additional legal or technological restrictions on those resources.
+
+FONT NOTICE
+-----------
+The resource pack includes converted board-font resources derived from third-party
+font software. Their required upstream notices remain in the RP/font directory and
+are not relicensed by Tavern's asset license.
+
+This port is unofficial and is not endorsed by Mojang or Microsoft.
+
+See license.txt for the complete bundled BSD notice and Tavern asset licensing notice.

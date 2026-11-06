@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_assets_a17.liquid_pressing_tub": {
+      "loop": true,
+      "bones": {
+        "surface": {
+          "position": [
+            0,
+            "2 + 4 * query.property('kt_art:amount') / 1000",
+            0
+          ],
+          "scale": "query.property('kt_art:amount') > 0 ? 1 : 0"
+        }
+      }
+    },
+    "animation.kt_assets_a17.liquid_barrel": {
+      "loop": true,
+      "bones": {
+        "surface": {
+          "position": [
+            0,
+            "32 + 10.4 * query.property('kt_art:amount') / 4000",
+            0
+          ],
+          "scale": "query.property('kt_art:amount') > 0 ? 1 : 0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kaleidoscope_tavern:rig_liquid_barrel_green_grape_visual",
+      "materials": {
+        "default": "breeze_wind"
+      },
+      "textures": {
+        "default": "textures/blocks/java_port/kt_green_grape_juice_still_machine"
+      },
+      "geometry": {
+        "default": "geometry.kt_assets_a17.liquid_barrel"
+      },
+      "animations": {
+        "level": "animation.kt_assets_a17.liquid_barrel"
+      },
+      "scripts": {
+        "animate": [
+          "level"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.kt_runtime.machine_liquid"
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_java.chalk_large_2_1",
+        "texture_width": 128,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                7
+              ],
+              "size": [
+                16,
+                14,
+                1
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    16,
+                    14
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    82,
+                    1
+                  ],
+                  "uv_size": [
+                    16,
+                    14
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    49,
+                    1
+                  ],
+                  "uv_size": [
+                    1,
+                    14
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    33,
+                    0
+                  ],
+                  "uv_size": [
+                    16,
+                    1
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

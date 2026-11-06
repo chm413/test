@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kaleidoscope_tavern:holder_bottle_visual",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "kind_1": "textures/blocks/runtime_port/brew/kt_empty_bottle",
+        "kind_2": "textures/blocks/runtime_port/brew/kt_champagne",
+        "kind_3": "textures/blocks/runtime_port/brew/kt_glowflower_brew",
+        "kind_4": "textures/blocks/java_port/brew/kt_honey_wine",
+        "kind_5": "textures/blocks/runtime_port/brew/kt_ice_wine",
+        "kind_6": "textures/blocks/runtime_port/brew/kt_luminous_bride",
+        "kind_7": "textures/blocks/runtime_port/brew/kt_plum_wine",
+        "kind_8": "textures/blocks/java_port/brew/kt_polaris_sweet_white",
+        "kind_9": "textures/blocks/java_port/brew/kt_red_queen",
+        "kind_10": "textures/blocks/runtime_port/brew/kt_sakura_wine",
+        "kind_11": "textures/blocks/java_port/brew/kt_sauvignon_blanc_dry_white",
+        "kind_12": "textures/blocks/java_port/brew/kt_sherry",
+        "kind_13": "textures/blocks/runtime_port/brew/kt_vinegar",
+        "kind_14": "textures/blocks/runtime_port/brew/kt_whiskey",
+        "kind_15": "textures/blocks/runtime_port/brew/kt_wine",
+        "kind_16": "textures/blocks/java_port/brew/kt_molotov"
+      },
+      "geometry": {
+        "kind_1": "geometry.kt_assets_a3.empty_bottle_faces",
+        "kind_2": "geometry.kt_assets_a4.champagne_1",
+        "kind_3": "geometry.kt_assets_a8.glowflower_brew_1",
+        "kind_4": "geometry.kt_assets_a4.honey_wine_1",
+        "kind_5": "geometry.kt_assets_a4.ice_wine_1",
+        "kind_6": "geometry.kt_assets_a8.luminous_bride_1",
+        "kind_7": "geometry.kt_assets_a9.plum_wine_1",
+        "kind_8": "geometry.kt_assets_a9.polaris_sweet_white_1",
+        "kind_9": "geometry.kt_assets_a7.red_queen_1",
+        "kind_10": "geometry.kt_assets_a7.sakura_wine_1",
+        "kind_11": "geometry.kt_assets_a7.sauvignon_blanc_dry_white_1",
+        "kind_12": "geometry.kt_assets_a7.sherry_1",
+        "kind_13": "geometry.kt_assets_a7.vinegar_1",
+        "kind_14": "geometry.kt_assets_a7.whiskey_1",
+        "kind_15": "geometry.kt_assets_a1.wine_1",
+        "kind_16": "geometry.kt_assets_a17.molotov"
+      },
+      "animations": {
+        "rest": "animation.kt_runtime.storage_bottle.holder"
+      },
+      "scripts": {
+        "scale": "0.95",
+        "animate": [
+          "rest"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.kt_runtime.holder_bottle"
+      ]
+    }
+  }
+}

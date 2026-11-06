@@ -1,0 +1,136 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_assets_a8.shaker",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "render_anchor",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            4.75,
+            0
+          ],
+          "parent": "render_anchor",
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                0,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                4.0,
+                6.0
+              ],
+              "uv": [
+                23,
+                28
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                4.0,
+                -3.5
+              ],
+              "size": [
+                7.0,
+                7.0,
+                7.0
+              ],
+              "uv": [
+                2,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bone2",
+          "pivot": [
+            0,
+            12.1667,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                14.0,
+                -1.5
+              ],
+              "size": [
+                3.0,
+                2.0,
+                3.0
+              ],
+              "uv": [
+                3,
+                36
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                11.0,
+                -3.5
+              ],
+              "size": [
+                7.0,
+                1.0,
+                7.0
+              ],
+              "uv": [
+                2,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -3.0,
+                12.0,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                2.0,
+                6.0
+              ],
+              "uv": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

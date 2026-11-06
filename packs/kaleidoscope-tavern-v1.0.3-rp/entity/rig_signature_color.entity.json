@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kt_assets_a17:rig_signature_color",
+      "materials": {
+        "default": "entity_alphatest_one_sided",
+        "liquid": "kt_signature_animated"
+      },
+      "textures": {
+        "frame_0": "textures/items/animated/signature/kt_frame_0",
+        "frame_1": "textures/items/animated/signature/kt_frame_1",
+        "frame_2": "textures/items/animated/signature/kt_frame_2",
+        "frame_3": "textures/items/animated/signature/kt_frame_3",
+        "frame_4": "textures/items/animated/signature/kt_frame_4",
+        "frame_5": "textures/items/animated/signature/kt_frame_5",
+        "mixtures": "textures/items/animated/signature/kt_mixtures"
+      },
+      "geometry": {
+        "glass": "geometry.kt_assets_a17.rig_signature_glass",
+        "liquid": "geometry.kt_assets_a17.rig_signature_liquid"
+      },
+      "render_controllers": [
+        "controller.render.kt_assets_a17.signature_glass",
+        "controller.render.kt_assets_a17.signature_tint"
+      ]
+    }
+  }
+}

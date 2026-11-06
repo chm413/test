@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.molotov.spin": {
+      "loop": true,
+      "bones": {
+        "spin_y": {
+          "rotation": [
+            0,
+            "-q.life_time * 400",
+            0
+          ]
+        },
+        "spin_x": {
+          "rotation": [
+            "q.life_time * 280",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

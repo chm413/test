@@ -1,0 +1,99 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_assets_a2.grape_crop_stage0",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0.0,
+                3,
+                -9.0
+              ],
+              "size": [
+                0,
+                18,
+                18.0
+              ],
+              "pivot": [
+                0,
+                13,
+                0
+              ],
+              "rotation": [
+                0,
+                -40,
+                0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    20.0
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                0.0,
+                3,
+                -9.0
+              ],
+              "size": [
+                0,
+                18,
+                18.0
+              ],
+              "pivot": [
+                0,
+                13,
+                0
+              ],
+              "rotation": [
+                0,
+                47,
+                0
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    20.0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

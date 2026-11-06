@@ -1,0 +1,443 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_assets_a17.item_display_string_lights_lime",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 8,
+        "visible_bounds_height": 6,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            8,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3,
+                4,
+                3
+              ],
+              "size": [
+                4,
+                4,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "up": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "down": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -2,
+                2.75,
+                3
+              ],
+              "size": [
+                4,
+                4.0,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "up": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "down": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -7,
+                4.25,
+                3
+              ],
+              "size": [
+                4,
+                4.0,
+                4
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "east": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "west": {
+                  "uv": [
+                    0.0,
+                    8.0
+                  ],
+                  "uv_size": [
+                    4.0,
+                    4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "up": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "down": {
+                  "uv": [
+                    9.0,
+                    12.0
+                  ],
+                  "uv_size": [
+                    -4.0,
+                    -4.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                4.25,
+                8,
+                5
+              ],
+              "size": [
+                2.0,
+                2,
+                0
+              ],
+              "pivot": [
+                5.25,
+                8.75,
+                5
+              ],
+              "rotation": [
+                0,
+                0,
+                -22.5
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -0.75,
+                7,
+                5
+              ],
+              "size": [
+                2.0,
+                2,
+                0
+              ],
+              "pivot": [
+                0.25,
+                7.75,
+                5
+              ],
+              "rotation": [
+                0,
+                0,
+                -45
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -5.75,
+                8,
+                5
+              ],
+              "size": [
+                2.0,
+                2,
+                0
+              ],
+              "pivot": [
+                -4.75,
+                8.75,
+                5
+              ],
+              "rotation": [
+                0,
+                0,
+                -45
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    5.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    2.0
+                  ],
+                  "material_instance": "unshaded"
+                }
+              }
+            },
+            {
+              "origin": [
+                -8,
+                10,
+                5
+              ],
+              "size": [
+                16,
+                5,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    5.0
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    16.0,
+                    5.0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kaleidoscope_tavern:barrel_item_display",
+      "materials": {"default":"zombie"},
+      "textures": {"default":"textures/entity/horse/armor/horse_armor_none"},
+      "geometry": {"default":"geometry.kt_runtime.pressing_item_display"},
+      "animations": {"pose":"animation.kt_runtime.barrel_item_display.pose"},
+      "scripts": {
+        "scale": "q.property('kaleidoscope_tavern:display_scale') / 100.0",
+        "animate": ["pose"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "enable_attachables": false
+    }
+  }
+}

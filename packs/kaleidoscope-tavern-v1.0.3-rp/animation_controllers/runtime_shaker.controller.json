@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.kt_runtime.shaker_table": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "shake": "q.property('kt_runtime:shaking')"
+            }
+          ]
+        },
+        "shake": {
+          "animations": [
+            "shake"
+          ],
+          "transitions": [
+            {
+              "idle": "!q.property('kt_runtime:shaking')"
+            }
+          ],
+          "blend_transition": 0.08
+        }
+      }
+    }
+  }
+}

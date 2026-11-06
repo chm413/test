@@ -1,12 +1,12 @@
 {
   "generatedBy": "mcpack-sync",
-  "generatedAt": "2026-11-06T23:18:18Z",
+  "generatedAt": "2026-11-06T23:25:17Z",
   "packs": [
     {
       "uuid": "541650da-507a-473a-b2f1-162103ffc351",
       "moduleUuid": "01758289-b7c9-4a2a-ba7b-a8e106e42e30",
-      "name": "pack.name",
-      "slug": "541650da-507a-473a-b2f1-162103ffc351",
+      "name": "Kaleidoscope Tavern v1.0.3 [RP]",
+      "slug": "kaleidoscope-tavern-v1.0.3-rp",
       "version": [
         1,
         0,
@@ -17,10 +17,10 @@
       "fingerprint": "ae24301a4c4223999bd05fd0067efad18e34f13145d8456b6f1bed0c0ee16874",
       "fileCount": 1980,
       "totalBytes": 19607824,
-      "path": "packs/541650da-507a-473a-b2f1-162103ffc351",
-      "tag": "541650da-507a-473a-b2f1-162103ffc351-v1.0.3-ae24301a",
-      "assetName": "541650da-507a-473a-b2f1-162103ffc351-v1.0.3-ae24301a.zip",
-      "updatedAt": "2026-11-06T23:18:18Z"
+      "path": "packs/kaleidoscope-tavern-v1.0.3-rp",
+      "tag": "kaleidoscope-tavern-v1.0.3-rp-v1.0.3-ae24301a",
+      "assetName": "kaleidoscope-tavern-v1.0.3-rp-v1.0.3-ae24301a.zip",
+      "updatedAt": "2026-11-06T23:25:17Z"
     }
   ]
 }

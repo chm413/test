@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_assets_a17.board_rotation": {
+      "loop": true,
+      "bones": {
+        "assembly": {
+          "rotation": [
+            0,
+            "query.property('kt_art:rotation') * 22.5",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

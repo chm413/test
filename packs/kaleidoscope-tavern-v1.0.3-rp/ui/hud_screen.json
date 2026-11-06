@@ -1,0 +1,3019 @@
+{
+  "namespace": "hud",
+  "kt_mixology_root": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "controls": [
+      {
+        "kt_mixology_data": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "property_bag": {
+            "#stored_text": "kaleidoscope_tavern_hud:off"
+          },
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#stored_text",
+              "binding_condition": "visibility_changed"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#hud_title_text_string = #stored_text) and not ((#hud_title_text_string - 'kaleidoscope_tavern_hud:') = #hud_title_text_string))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "progress": {
+          "type": "panel",
+          "size": [
+            181,
+            23
+          ],
+          "anchor_from": "center",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            26
+          ],
+          "layer": 40,
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "kt_mixology_data",
+              "source_property_name": "(not ((#stored_text - 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/') = #stored_text))",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "bar": {
+                "type": "image",
+                "size": [
+                  181,
+                  17
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  6
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_bar",
+                "bilinear": false
+              }
+            },
+            {
+              "cursor_0": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/000')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_1": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  2,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/001')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_2": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  3,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/002')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_3": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  5,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/003')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_4": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  6,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/004')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_5": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  8,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/005')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_6": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  9,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/006')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_7": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  11,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/007')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_8": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  12,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/008')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_9": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  14,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/009')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_10": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  15,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/010')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_11": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  17,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/011')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_12": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  18,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/012')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_13": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  20,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/013')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_14": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  21,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/014')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_15": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  23,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/015')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_16": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  24,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/016')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_17": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  26,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/017')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_18": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  27,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/018')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_19": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  29,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/019')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_20": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  30,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/020')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_21": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  32,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/021')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_22": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  33,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/022')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_23": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  35,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/023')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_24": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  36,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/024')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_25": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  38,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/025')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_26": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  39,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/026')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_27": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  41,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/027')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_28": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  42,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/028')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_29": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  44,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/029')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_30": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  45,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/030')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_31": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  47,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/031')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_32": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  48,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/032')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_33": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  50,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/033')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_34": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  51,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/034')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_35": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  53,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/035')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_36": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  54,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/036')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_37": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  56,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/037')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_38": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  57,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/038')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_39": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  59,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/039')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_40": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  60,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/040')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_41": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  62,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/041')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_42": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  63,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/042')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_43": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  65,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/043')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_44": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  66,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/044')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_45": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  68,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/045')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_46": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  69,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/046')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_47": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  71,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/047')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_48": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  72,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/048')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_49": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  74,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/049')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_50": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  75,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/050')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_51": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  77,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/051')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_52": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  78,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/052')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_53": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  80,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/053')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_54": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  81,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/054')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_55": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  83,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/055')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_56": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  84,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/056')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_57": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  86,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/057')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_58": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  87,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/058')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_59": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  89,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/059')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_60": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  90,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/060')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_61": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  92,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/061')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_62": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  93,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/062')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_63": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  95,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/063')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_64": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  96,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/064')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_65": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  98,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/065')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_66": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  99,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/066')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_67": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  101,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/067')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_68": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  102,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/068')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_69": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  104,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/069')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_70": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  105,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/070')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_71": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  107,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/071')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_72": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  108,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/072')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_73": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  110,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/073')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_74": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  111,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/074')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_75": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  113,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/075')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_76": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  114,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/076')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_77": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  116,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/077')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_78": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  117,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/078')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_79": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  119,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/079')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_80": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  120,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/080')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_81": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  122,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/081')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_82": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  123,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/082')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_83": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  125,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/083')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_84": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  126,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/084')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_85": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  128,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/085')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_86": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  129,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/086')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_87": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  131,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/087')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_88": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  132,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/088')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_89": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  134,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/089')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_90": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  135,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/090')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_91": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  137,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/091')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_92": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  138,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/092')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_93": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  140,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/093')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_94": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  141,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/094')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_95": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  143,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/095')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_96": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  144,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/096')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_97": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  146,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/097')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_98": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  147,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/098')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_99": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  149,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/099')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_100": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  150,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/100')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_101": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  152,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/101')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_102": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  153,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/102')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_103": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  155,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/103')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_104": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  156,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/104')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_105": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  158,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/105')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_106": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  159,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/106')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_107": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  161,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/107')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_108": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  162,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/108')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_109": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  164,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/109')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_110": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  165,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/110')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "cursor_111": {
+                "type": "image",
+                "size": [
+                  11,
+                  13
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  167,
+                  0
+                ],
+                "texture": "textures/ui/kt_mixology/kt_progress_cursor",
+                "bilinear": false,
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "kt_mixology_data",
+                    "source_property_name": "(#stored_text = 'kaleidoscope_tavern_hud:textures/ui/kt_mixology/progress/111')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "kt_mixology@hud.kt_mixology_root": {}
+          }
+        ]
+      }
+    ]
+  },
+  "hud_title_text": {
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#hud_title_text_string - 'kaleidoscope_tavern_hud:') = #hud_title_text_string)",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

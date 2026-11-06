@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.storage_bottle.cellar": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [
+            -90,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.kt_runtime.storage_bottle.tilted": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [
+            22.5,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.kt_runtime.storage_bottle.holder": {
+      "loop": true,
+      "bones": {
+        "root": {"rotation": [-45, 0, 0]}
+      }
+    }
+  }
+}

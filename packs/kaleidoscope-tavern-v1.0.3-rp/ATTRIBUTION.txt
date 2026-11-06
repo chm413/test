@@ -1,0 +1,20 @@
+ATTRIBUTION AND MODIFICATION NOTICE
+
+Kaleidoscope Tavern
+Original creator: Kaleidoscope Official Production Team / YSBB
+Original source: https://github.com/KaleidoscopeMods/KaleidoscopeTavern
+Bedrock adaptation/port: Loyallay
+Earlier Bedrock implementation/reference: casama233 and Tavern port contributors
+
+This is an unofficial Minecraft Bedrock Edition adaptation. The original Java
+Edition content has been adapted, reorganized, reimplemented, and modified for
+Minecraft Bedrock Edition. It is not endorsed by the original development team.
+
+Original/upstream code license: BSD 3-Clause.
+Original/adapted Tavern resource license: CC BY-NC-SA 4.0.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Certain board-font resources retain their own upstream font licenses; the required
+notices are kept beside those font files in the resource pack's font folder.
+
+See license.txt and CREDITS.txt included with this pack.

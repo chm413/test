@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kaleidoscope_tavern:barrel_ingredients_0_visual",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "kind_1": "textures/items/apple",
+        "kind_2": "textures/items/blaze_powder",
+        "kind_3": "textures/items/dye_powder_glow",
+        "kind_4": "textures/items/glowstone_dust",
+        "kind_5": "textures/items/gold_nugget",
+        "kind_6": "textures/items/gunpowder",
+        "kind_7": "textures/items/honeycomb",
+        "kind_8": "textures/items/iron_nugget",
+        "kind_9": "textures/items/potato",
+        "kind_10": "textures/items/redstone_dust",
+        "kind_11": "textures/items/sugar",
+        "kind_12": "textures/items/reeds",
+        "kind_13": "textures/items/sweet_berries",
+        "kind_14": "textures/items/wheat",
+        "kind_15": "textures/items/rotten_flesh",
+        "kind_16": "textures/blocks/blue_ice",
+        "kind_17": "textures/blocks/ice",
+        "kind_18": "textures/blocks/ice_packed",
+        "kind_19": "textures/blocks/dirt",
+        "kind_20": "textures/blocks/stone",
+        "kind_21": "textures/items/pink_petals"
+      },
+      "geometry": {
+        "card": "geometry.kt_runtime.barrel_ingredients_card",
+        "cube": "geometry.kt_runtime.barrel_ingredients_cube"
+      },
+      "animations": {
+        "float": "animation.kt_runtime.barrel_ingredients.float"
+      },
+      "scripts": {
+        "animate": [
+          "float"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.kt_runtime.barrel_ingredients"
+      ]
+    }
+  }
+}

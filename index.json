@@ -1,6 +1,6 @@
 {
   "generatedBy": "mcpack-sync",
-  "generatedAt": "2026-11-06T14:44:34Z",
+  "generatedAt": "2026-11-06T14:59:10Z",
   "packs": [
     {
       "uuid": "c2f55d81-ea6b-4086-ac5c-97841795f997",
@@ -20,7 +20,7 @@
       "path": "packs/packrelay-probe",
       "tag": "packrelay-probe-v1.0.0-bf0e07f7",
       "assetName": "packrelay-probe-v1.0.0-bf0e07f7.zip",
-      "updatedAt": "2026-11-06T14:44:34Z"
+      "updatedAt": "2026-11-06T14:59:10Z"
     }
   ]
 }

@@ -1,0 +1,252 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_depth_charge",
+    "atlas_tile": "kt_assets_a8_block_mixology_depth_charge",
+    "frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_signature_cocktail",
+    "atlas_tile": "kt_assets_a8_block_mixology_signature_cocktail",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ticks_per_frame": 2,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_mystery_cocktail",
+    "atlas_tile": "kt_assets_a8_block_mixology_mystery_cocktail",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "ticks_per_frame": 6,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/runtime_port/mixology/kt_nether_special",
+    "atlas_tile": "kt_assets_a10_block_mixology_nether_special",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ticks_per_frame": 50,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_sculk_special",
+    "atlas_tile": "kt_assets_a10_block_mixology_sculk_special",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "ticks_per_frame": 1,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/runtime_port/deco/painting/kt_tartaric_acid",
+    "atlas_tile": "kt_assets_a14_block_deco_painting_tartaric_acid",
+    "frames": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ticks_per_frame": 10,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/deco/painting/kt_tartaric_acid",
+    "atlas_tile": "kt_assets_a17_animation_block_deco_painting_tartaric_acid",
+    "ticks_per_frame": 10,
+    "frames": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_depth_charge",
+    "atlas_tile": "kt_assets_a17_animation_block_mixology_depth_charge",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_mystery_cocktail",
+    "atlas_tile": "kt_assets_a17_animation_block_mixology_mystery_cocktail",
+    "ticks_per_frame": 6,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_nether_special",
+    "atlas_tile": "kt_assets_a17_animation_block_mixology_nether_special",
+    "ticks_per_frame": 50,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_sculk_special",
+    "atlas_tile": "kt_assets_a17_animation_block_mixology_sculk_special",
+    "ticks_per_frame": 1,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/java_port/mixology/kt_signature_cocktail",
+    "atlas_tile": "kt_assets_a17_animation_block_mixology_signature_cocktail",
+    "ticks_per_frame": 2,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/items/java_port/kt_depth_charge",
+    "atlas_tile": "kt_assets_a17_animation_item_depth_charge",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/items/java_port/kt_ice_grape",
+    "atlas_tile": "kt_assets_a17_animation_item_ice_grape",
+    "ticks_per_frame": 2,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/items/java_port/kt_mystery_cocktail",
+    "atlas_tile": "kt_assets_a17_animation_item_mystery_cocktail",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/items/java_port/kt_nether_special",
+    "atlas_tile": "kt_assets_a17_animation_item_nether_special",
+    "ticks_per_frame": 20,
+    "frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blend_frames": true
+  }
+]

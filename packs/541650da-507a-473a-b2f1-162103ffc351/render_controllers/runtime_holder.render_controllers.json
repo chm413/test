@@ -1,0 +1,78 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.kt_runtime.holder_bottle": {
+      "arrays": {
+        "geometries": {
+          "Array.kind": [
+            "Geometry.kind_1",
+            "Geometry.kind_2",
+            "Geometry.kind_3",
+            "Geometry.kind_4",
+            "Geometry.kind_5",
+            "Geometry.kind_6",
+            "Geometry.kind_7",
+            "Geometry.kind_8",
+            "Geometry.kind_9",
+            "Geometry.kind_10",
+            "Geometry.kind_11",
+            "Geometry.kind_12",
+            "Geometry.kind_13",
+            "Geometry.kind_14",
+            "Geometry.kind_15",
+            "Geometry.kind_16"
+          ]
+        },
+        "textures": {
+          "Array.kind": [
+            "Texture.kind_1",
+            "Texture.kind_2",
+            "Texture.kind_3",
+            "Texture.kind_4",
+            "Texture.kind_5",
+            "Texture.kind_6",
+            "Texture.kind_7",
+            "Texture.kind_8",
+            "Texture.kind_9",
+            "Texture.kind_10",
+            "Texture.kind_11",
+            "Texture.kind_12",
+            "Texture.kind_13",
+            "Texture.kind_14",
+            "Texture.kind_15",
+            "Texture.kind_16"
+          ]
+        },
+        "materials": {
+          "Array.kind_material": [
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default",
+            "Material.default"
+          ]
+        }
+      },
+      "geometry": "Array.kind[q.property('kaleidoscope_tavern:holder_kind') - 1]",
+      "materials": [
+        {
+          "*": "Array.kind_material[q.property('kaleidoscope_tavern:holder_kind') - 1]"
+        }
+      ],
+      "textures": [
+        "Array.kind[q.property('kaleidoscope_tavern:holder_kind') - 1]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.kt_mixology.shaker_hand_v27",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "grip",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                16,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                4.0,
+                6.0
+              ],
+              "uv": [
+                23,
+                28
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                20.0,
+                -3.5
+              ],
+              "size": [
+                7.0,
+                7.0,
+                7.0
+              ],
+              "uv": [
+                2,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                30.0,
+                -1.5
+              ],
+              "size": [
+                3.0,
+                2.0,
+                3.0
+              ],
+              "uv": [
+                3,
+                36
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                27.0,
+                -3.5
+              ],
+              "size": [
+                7.0,
+                1.0,
+                7.0
+              ],
+              "uv": [
+                2,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -3.0,
+                28.0,
+                -3.0
+              ],
+              "size": [
+                6.0,
+                2.0,
+                6.0
+              ],
+              "uv": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.stool.turn": {
+      "loop": true,
+      "bones": {
+        "bone": {
+          "rotation": [
+            0,
+            "v.kt_seat_angle",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_assets_a17.shaker.first_person_source": {
+      "loop": true,
+      "bones": {
+        "hand_source_anchor": {
+          "position": [
+            "query.property('kt_art:left_hand') ? -8.96 : 8.96",
+            "-8.32 - (math.sin(query.life_time * 20 * 1.5 * 57.295779513) * 0.25) * 9.6",
+            -11.52
+          ],
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.kt_assets_a17.shaker.third_person_source": {
+      "loop": true,
+      "bones": {
+        "source_right_arm": {
+          "rotation": [
+            "247.50000580486656 - (math.sin(query.life_time * 20 * 1.5 * 57.295779513) * 0.25) * 180",
+            0,
+            -9
+          ]
+        },
+        "source_left_arm": {
+          "rotation": [
+            "247.50000580486656 + (math.sin(query.life_time * 20 * 1.5 * 57.295779513) * 0.25) * 180",
+            0,
+            9
+          ]
+        }
+      }
+    }
+  }
+}

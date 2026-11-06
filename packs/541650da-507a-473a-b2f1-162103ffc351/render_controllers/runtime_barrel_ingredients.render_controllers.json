@@ -1,0 +1,72 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.kt_runtime.barrel_ingredients": {
+      "geometry": "(q.property('kaleidoscope_tavern:kind') == 16 || q.property('kaleidoscope_tavern:kind') == 17 || q.property('kaleidoscope_tavern:kind') == 18 || q.property('kaleidoscope_tavern:kind') == 19 || q.property('kaleidoscope_tavern:kind') == 20) ? Geometry.cube : Geometry.card",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.kind[q.property('kaleidoscope_tavern:kind')-1]"
+      ],
+      "arrays": {
+        "textures": {
+          "Array.kind": [
+            "Texture.kind_1",
+            "Texture.kind_2",
+            "Texture.kind_3",
+            "Texture.kind_4",
+            "Texture.kind_5",
+            "Texture.kind_6",
+            "Texture.kind_7",
+            "Texture.kind_8",
+            "Texture.kind_9",
+            "Texture.kind_10",
+            "Texture.kind_11",
+            "Texture.kind_12",
+            "Texture.kind_13",
+            "Texture.kind_14",
+            "Texture.kind_15",
+            "Texture.kind_16",
+            "Texture.kind_17",
+            "Texture.kind_18",
+            "Texture.kind_19",
+            "Texture.kind_20",
+            "Texture.kind_21"
+          ]
+        }
+      },
+      "part_visibility": [
+        {
+          "item_0": "q.property('kaleidoscope_tavern:count') > 0"
+        },
+        {
+          "item_1": "q.property('kaleidoscope_tavern:count') > 1"
+        },
+        {
+          "item_2": "q.property('kaleidoscope_tavern:count') > 2"
+        },
+        {
+          "item_3": "q.property('kaleidoscope_tavern:count') > 3"
+        },
+        {
+          "item_4": "q.property('kaleidoscope_tavern:count') > 4"
+        },
+        {
+          "item_5": "q.property('kaleidoscope_tavern:count') > 5"
+        },
+        {
+          "item_6": "q.property('kaleidoscope_tavern:count') > 6"
+        },
+        {
+          "item_7": "q.property('kaleidoscope_tavern:count') > 7"
+        },
+        {
+          "item_8": "q.property('kaleidoscope_tavern:count') > 8"
+        }
+      ]
+    }
+  }
+}

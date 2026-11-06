@@ -1,26 +1,26 @@
 {
   "generatedBy": "mcpack-sync",
-  "generatedAt": "2026-11-06T16:02:37Z",
+  "generatedAt": "2026-11-06T23:18:18Z",
   "packs": [
     {
-      "uuid": "c2f55d81-ea6b-4086-ac5c-97841795f997",
-      "moduleUuid": "c24438c0-1c40-4f08-b5f7-dbb8810163f5",
-      "name": "Packrelay Probe",
-      "slug": "packrelay-probe",
+      "uuid": "541650da-507a-473a-b2f1-162103ffc351",
+      "moduleUuid": "01758289-b7c9-4a2a-ba7b-a8e106e42e30",
+      "name": "pack.name",
+      "slug": "541650da-507a-473a-b2f1-162103ffc351",
       "version": [
         1,
         0,
-        0
+        3
       ],
-      "versionString": "1.0.0",
-      "fileSetHash": "df17618a367afe854294702bfdb865f0482130c65b6ea239c3950dc276258d68",
-      "fingerprint": "64bdec6e35adf49ac5761ea9a4c433af0914b078e5248693c7b476ac638da5fa",
-      "fileCount": 3,
-      "totalBytes": 5908,
-      "path": "packs/packrelay-probe",
-      "tag": "packrelay-probe-v1.0.0-64bdec6e",
-      "assetName": "packrelay-probe-v1.0.0-64bdec6e.zip",
-      "updatedAt": "2026-11-06T16:02:37Z"
+      "versionString": "1.0.3",
+      "fileSetHash": "fe19ecf171fae43c6a78e66c23b299865a8e5d9ffd095c5137b361840cae9d15",
+      "fingerprint": "ae24301a4c4223999bd05fd0067efad18e34f13145d8456b6f1bed0c0ee16874",
+      "fileCount": 1980,
+      "totalBytes": 19607824,
+      "path": "packs/541650da-507a-473a-b2f1-162103ffc351",
+      "tag": "541650da-507a-473a-b2f1-162103ffc351-v1.0.3-ae24301a",
+      "assetName": "541650da-507a-473a-b2f1-162103ffc351-v1.0.3-ae24301a.zip",
+      "updatedAt": "2026-11-06T23:18:18Z"
     }
   ]
 }

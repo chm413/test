@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "kt_light_gray",
+    "metalness_emissive_roughness": "kt_light_gray_mer"
+  }
+}

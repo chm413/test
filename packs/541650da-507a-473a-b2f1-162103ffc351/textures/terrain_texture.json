@@ -1,0 +1,1089 @@
+{
+  "resource_pack_name": "tavern_a17",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "kt_assets_a1_pressing_tub": {
+      "textures": "textures/blocks/java_port/brew/kt_pressing_tub"
+    },
+    "kt_assets_a1_pressing_tub_tilt": {
+      "textures": "textures/blocks/java_port/brew/kt_pressing_tub"
+    },
+    "kt_assets_a1_tap_closed": {
+      "textures": "textures/blocks/java_port/brew/kt_tap"
+    },
+    "kt_assets_a1_tap_open": {
+      "textures": "textures/blocks/java_port/brew/kt_tap"
+    },
+    "kt_assets_a1_wine_1": {
+      "textures": "textures/blocks/runtime_port/brew/kt_wine"
+    },
+    "kt_assets_a1_wine_2": {
+      "textures": "textures/blocks/runtime_port/brew/kt_wine"
+    },
+    "kt_assets_a1_wine_3": {
+      "textures": "textures/blocks/runtime_port/brew/kt_wine"
+    },
+    "kt_assets_a1_wine_4": {
+      "textures": "textures/blocks/runtime_port/brew/kt_wine"
+    },
+    "kt_assets_a2_trellis_single": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_cross_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_cross_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_cross_up_down": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_trellis_six_direction": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a2_grape_crop_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_grape_crop_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_grape_crop_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_grape_crop_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_grape_crop_stage4": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_grape_crop_stage5": {
+      "textures": "textures/blocks/java_port/plant/kt_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage4": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_ice_grape_crop_stage5": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage4": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a2_gold_grape_crop_stage5": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grape_crop"
+    },
+    "kt_assets_a3_empty_bottle_faces": {
+      "textures": "textures/blocks/runtime_port/brew/kt_empty_bottle"
+    },
+    "kt_assets_a4_block_brew_champagne": {
+      "textures": "textures/blocks/runtime_port/brew/kt_champagne"
+    },
+    "kt_assets_a4_block_brew_honey_wine": {
+      "textures": "textures/blocks/java_port/brew/kt_honey_wine"
+    },
+    "kt_assets_a4_block_brew_ice_wine": {
+      "textures": "textures/blocks/runtime_port/brew/kt_ice_wine"
+    },
+    "kt_assets_a4_block_deco_sofa_white": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_white"
+    },
+    "kt_assets_a4_block_deco_sofa_orange": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_orange"
+    },
+    "kt_assets_a4_block_deco_sofa_magenta": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_magenta"
+    },
+    "kt_assets_a4_block_deco_sofa_light_blue": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_light_blue"
+    },
+    "kt_assets_a4_block_deco_sofa_yellow": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_yellow"
+    },
+    "kt_assets_a4_block_deco_sofa_lime": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_lime"
+    },
+    "kt_assets_a4_block_deco_sofa_pink": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_pink"
+    },
+    "kt_assets_a4_block_deco_sofa_gray": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_gray"
+    },
+    "kt_assets_a4_block_deco_sofa_light_gray": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_light_gray"
+    },
+    "kt_assets_a4_block_deco_sofa_cyan": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_cyan"
+    },
+    "kt_assets_a4_block_deco_sofa_purple": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_purple"
+    },
+    "kt_assets_a4_block_deco_sofa_blue": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_blue"
+    },
+    "kt_assets_a4_block_deco_sofa_brown": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_brown"
+    },
+    "kt_assets_a4_block_deco_sofa_green": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_green"
+    },
+    "kt_assets_a4_block_deco_sofa_red": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_red"
+    },
+    "kt_assets_a4_block_deco_sofa_black": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_black"
+    },
+    "kt_assets_a4_block_mixology_emerald": {
+      "textures": "textures/blocks/java_port/mixology/kt_emerald"
+    },
+    "kt_assets_a6_block_brew_bar_cabinet": {
+      "textures": "textures/blocks/java_port/brew/kt_bar_cabinet"
+    },
+    "kt_assets_a6_block_brew_glass_bar_cabinet": {
+      "textures": "textures/blocks/runtime_port/brew/kt_glass_bar_cabinet"
+    },
+    "kt_assets_a6_block_deco_tilted_rack": {
+      "textures": "textures/blocks/java_port/deco/kt_tilted_rack"
+    },
+    "kt_assets_a6_block_deco_circular_rack": {
+      "textures": "textures/blocks/runtime_port/deco/kt_circular_rack"
+    },
+    "kt_assets_a6_block_deco_glassware_holder": {
+      "textures": "textures/blocks/java_port/deco/kt_glassware_holder"
+    },
+    "kt_assets_a6_block_brew_vodka": {
+      "textures": "textures/blocks/runtime_port/brew/kt_vodka"
+    },
+    "kt_assets_a7_block_brew_rum": {
+      "textures": "textures/blocks/java_port/brew/kt_rum"
+    },
+    "kt_assets_a7_block_brew_sherry": {
+      "textures": "textures/blocks/java_port/brew/kt_sherry"
+    },
+    "kt_assets_a7_block_brew_red_queen": {
+      "textures": "textures/blocks/java_port/brew/kt_red_queen"
+    },
+    "kt_assets_a7_block_brew_vinegar": {
+      "textures": "textures/blocks/runtime_port/brew/kt_vinegar"
+    },
+    "kt_assets_a7_block_brew_whiskey": {
+      "textures": "textures/blocks/runtime_port/brew/kt_whiskey"
+    },
+    "kt_assets_a7_block_brew_miners_star": {
+      "textures": "textures/blocks/java_port/brew/kt_miners_star"
+    },
+    "kt_assets_a7_block_brew_sauvignon_blanc_dry_white": {
+      "textures": "textures/blocks/java_port/brew/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_assets_a7_block_brew_sweet_berry_wine": {
+      "textures": "textures/blocks/java_port/brew/kt_sweet_berry_wine"
+    },
+    "kt_assets_a7_block_brew_sakura_wine": {
+      "textures": "textures/blocks/runtime_port/brew/kt_sakura_wine"
+    },
+    "kt_assets_a7_block_mixology_empty_glassware": {
+      "textures": "textures/blocks/java_port/mixology/kt_empty_glassware"
+    },
+    "kt_assets_a7_block_mixology_screwdriver": {
+      "textures": "textures/blocks/java_port/mixology/kt_screwdriver"
+    },
+    "kt_assets_a8_block_mixology_depth_charge": {
+      "textures": "textures/items/generated/a8/kt_depth_charge_frame0"
+    },
+    "kt_assets_a8_block_mixology_mojito": {
+      "textures": "textures/blocks/java_port/mixology/kt_mojito"
+    },
+    "kt_assets_a8_block_mixology_signature_cocktail": {
+      "textures": "textures/items/generated/a8/kt_signature_cocktail_frame0"
+    },
+    "kt_assets_a8_block_mixology_mystery_cocktail": {
+      "textures": "textures/items/generated/a8/kt_mystery_cocktail_frame0"
+    },
+    "kt_assets_a8_block_mixology_shaker": {
+      "textures": "textures/blocks/runtime_port/mixology/kt_shaker"
+    },
+    "kt_assets_a8_block_brew_glowflower_brew": {
+      "textures": "textures/blocks/runtime_port/brew/kt_glowflower_brew"
+    },
+    "kt_assets_a8_block_brew_luminous_bride": {
+      "textures": "textures/blocks/runtime_port/brew/kt_luminous_bride"
+    },
+    "kt_assets_a9_block_brew_brandy": {
+      "textures": "textures/blocks/runtime_port/brew/kt_brandy"
+    },
+    "kt_assets_a9_block_brew_carignan": {
+      "textures": "textures/blocks/runtime_port/brew/kt_carignan"
+    },
+    "kt_assets_a9_block_brew_madame_shexiang": {
+      "textures": "textures/blocks/java_port/brew/kt_madame_shexiang"
+    },
+    "kt_assets_a9_block_brew_mother_snow": {
+      "textures": "textures/blocks/java_port/brew/kt_mother_snow"
+    },
+    "kt_assets_a9_block_brew_plum_wine": {
+      "textures": "textures/blocks/runtime_port/brew/kt_plum_wine"
+    },
+    "kt_assets_a9_block_brew_polaris_sweet_white": {
+      "textures": "textures/blocks/java_port/brew/kt_polaris_sweet_white"
+    },
+    "kt_assets_a9_block_brew_riesling_dry_white": {
+      "textures": "textures/blocks/java_port/brew/kt_riesling_dry_white"
+    },
+    "kt_assets_a9_block_brew_sunset_glow": {
+      "textures": "textures/blocks/java_port/brew/kt_sunset_glow"
+    },
+    "kt_assets_a9_block_brew_watermelon_juice": {
+      "textures": "textures/blocks/java_port/brew/kt_watermelon_juice"
+    },
+    "kt_assets_a9_block_mixology_white_lady": {
+      "textures": "textures/blocks/java_port/mixology/kt_white_lady"
+    },
+    "kt_assets_a10_block_mixology_allium_garden": {
+      "textures": "textures/blocks/java_port/mixology/kt_allium_garden"
+    },
+    "kt_assets_a10_block_mixology_bloody_mary": {
+      "textures": "textures/blocks/java_port/mixology/kt_bloody_mary"
+    },
+    "kt_assets_a10_block_mixology_brass_heart": {
+      "textures": "textures/blocks/java_port/mixology/kt_brass_heart"
+    },
+    "kt_assets_a10_block_mixology_godfather": {
+      "textures": "textures/blocks/java_port/mixology/kt_godfather"
+    },
+    "kt_assets_a10_block_mixology_grasshopper": {
+      "textures": "textures/blocks/java_port/mixology/kt_grasshopper"
+    },
+    "kt_assets_a10_block_mixology_nether_special": {
+      "textures": "textures/items/generated/a10/kt_nether_special_frame0"
+    },
+    "kt_assets_a10_block_mixology_sculk_special": {
+      "textures": "textures/items/generated/a10/kt_sculk_special_frame0"
+    },
+    "kt_assets_a10_block_deco_bar_counter": {
+      "textures": "textures/blocks/runtime_port/deco/kt_bar_counter"
+    },
+    "kt_assets_a10_block_deco_holder": {
+      "textures": "textures/blocks/java_port/deco/kt_holder"
+    },
+    "kt_assets_a12_block_table": {
+      "textures": "textures/blocks/java_port/kt_table"
+    },
+    "kt_assets_a12_block_deco_bell_pendant_lamp": {
+      "textures": "textures/blocks/java_port/deco/kt_bell_pendant_lamp"
+    },
+    "kt_assets_a12_block_deco_blue_pendant_lamp": {
+      "textures": "textures/blocks/java_port/deco/kt_blue_pendant_lamp"
+    },
+    "kt_assets_a12_block_deco_yellow_pendant_lamp": {
+      "textures": "textures/blocks/java_port/deco/kt_yellow_pendant_lamp"
+    },
+    "kt_assets_a12_block_deco_stepladder": {
+      "textures": "textures/blocks/java_port/deco/kt_stepladder"
+    },
+    "kt_assets_a12_block_deco_sandwich_board_body": {
+      "textures": "textures/blocks/runtime_port/deco/sandwich_board/kt_body"
+    },
+    "kt_assets_a13_block_deco_incense_sakura_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_sakura_incense"
+    },
+    "kt_assets_a13_block_deco_incense_pine_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_pine_incense"
+    },
+    "kt_assets_a13_block_deco_incense_ginkgo_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_ginkgo_incense"
+    },
+    "kt_assets_a13_block_deco_incense_spore_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_spore_incense"
+    },
+    "kt_assets_a13_block_deco_incense_catnip_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_catnip_incense"
+    },
+    "kt_assets_a13_block_deco_incense_snow_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_snow_incense"
+    },
+    "kt_assets_a13_block_deco_incense_butterfly_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_butterfly_incense"
+    },
+    "kt_assets_a13_block_deco_incense_firefly_incense": {
+      "textures": "textures/blocks/java_port/deco/incense/kt_firefly_incense"
+    },
+    "kt_assets_a13_block_deco_painting_mondrian": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_mondrian"
+    },
+    "kt_assets_a13_block_deco_painting_great_wave": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_great_wave"
+    },
+    "kt_assets_a13_block_deco_painting_mona_lisa": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_mona_lisa"
+    },
+    "kt_assets_a13_block_deco_painting_cr019": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_cr019"
+    },
+    "kt_assets_a13_block_deco_painting_david": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_david"
+    },
+    "kt_assets_a13_derived_a13_bar_stool_blue_atlas": {
+      "textures": "textures/blocks/generated/a13/kt_bar_stool_blue_atlas"
+    },
+    "kt_assets_a14_block_deco_painting_father": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_father"
+    },
+    "kt_assets_a14_block_deco_painting_girl_with_pearl_earring": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_girl_with_pearl_earring"
+    },
+    "kt_assets_a14_block_deco_painting_master_marisa": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_master_marisa"
+    },
+    "kt_assets_a14_block_deco_painting_son_of_man": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_son_of_man"
+    },
+    "kt_assets_a14_block_deco_painting_starry_night": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_starry_night"
+    },
+    "kt_assets_a14_block_deco_painting_van_gogh_self_portrait": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_van_gogh_self_portrait"
+    },
+    "kt_assets_a14_block_deco_painting_ysbb": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_ysbb"
+    },
+    "kt_assets_a14_block_deco_painting_tartaric_acid": {
+      "textures": "textures/blocks/generated/a14/kt_painting_tartaric_acid_frame0"
+    },
+    "kt_assets_a14_block_deco_painting_unknown": {
+      "textures": "textures/blocks/runtime_port/deco/painting/kt_unknown"
+    },
+    "kt_assets_a14_derived_a14_bar_stool_red_atlas": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_red_atlas"
+    },
+    "kt_assets_a14_derived_a14_bar_stool_white_atlas": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_white_atlas"
+    },
+    "kt_assets_a14_derived_a14_bar_stool_black_atlas": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_black_atlas"
+    },
+    "kt_assets_a14_derived_a14_bar_stool_brown_atlas": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_brown_atlas"
+    },
+    "kt_assets_a14_derived_a14_bar_stool_cyan_atlas": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_cyan_atlas"
+    },
+    "kt_assets_a14_block_deco_string_lights_blue": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_blue"
+    },
+    "kt_assets_a15_derived_a15_bar_stool_orange_atlas": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_orange_atlas"
+    },
+    "kt_assets_a15_derived_a15_bar_stool_magenta_atlas": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_magenta_atlas"
+    },
+    "kt_assets_a15_derived_a15_bar_stool_light_blue_atlas": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_light_blue_atlas"
+    },
+    "kt_assets_a15_derived_a15_bar_stool_yellow_atlas": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_yellow_atlas"
+    },
+    "kt_assets_a15_block_deco_string_lights_red": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_red"
+    },
+    "kt_assets_a15_block_deco_string_lights_white": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_white"
+    },
+    "kt_assets_a15_block_deco_string_lights_black": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_black"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_lime_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_lime_atlas"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_pink_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_pink_atlas"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_gray_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_gray_atlas"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_light_gray_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_light_gray_atlas"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_purple_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_purple_atlas"
+    },
+    "kt_assets_a16_derived_a16_bar_stool_green_atlas": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_green_atlas"
+    },
+    "kt_assets_a16_block_deco_string_lights_colorless": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_colorless"
+    },
+    "kt_assets_a16_block_deco_string_lights_brown": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_brown"
+    },
+    "kt_assets_a16_block_deco_string_lights_cyan": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_cyan"
+    },
+    "kt_assets_a16_block_deco_string_lights_gray": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_gray"
+    },
+    "kt_assets_a17_string_lights_green": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_green"
+    },
+    "kt_assets_a17_string_lights_light_blue": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_light_blue"
+    },
+    "kt_assets_a17_string_lights_light_gray": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_light_gray"
+    },
+    "kt_assets_a17_string_lights_lime": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_lime"
+    },
+    "kt_assets_a17_string_lights_magenta": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_magenta"
+    },
+    "kt_assets_a17_string_lights_orange": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_orange"
+    },
+    "kt_assets_a17_string_lights_pink": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_pink"
+    },
+    "kt_assets_a17_string_lights_purple": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_purple"
+    },
+    "kt_assets_a17_string_lights_yellow": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_yellow"
+    },
+    "kt_assets_a17_sandwich_board_base_assembled": {
+      "textures": "textures/blocks/java_port/deco/sandwich_board/kt_body"
+    },
+    "kt_assets_a17_sandwich_board_allium_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_allium_top"
+    },
+    "kt_assets_a17_sandwich_board_allium_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_allium_top"
+    },
+    "kt_assets_a17_sandwich_board_azure_bluet_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_azure_bluet_top"
+    },
+    "kt_assets_a17_sandwich_board_azure_bluet_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_azure_bluet_top"
+    },
+    "kt_assets_a17_sandwich_board_cornflower_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_cornflower_top"
+    },
+    "kt_assets_a17_sandwich_board_cornflower_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_cornflower_top"
+    },
+    "kt_assets_a17_sandwich_board_grass_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_grass_top"
+    },
+    "kt_assets_a17_sandwich_board_grass_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_grass_top"
+    },
+    "kt_assets_a17_sandwich_board_orchid_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_orchid_top"
+    },
+    "kt_assets_a17_sandwich_board_orchid_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_orchid_top"
+    },
+    "kt_assets_a17_sandwich_board_peony_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_peony_top"
+    },
+    "kt_assets_a17_sandwich_board_peony_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_peony_top"
+    },
+    "kt_assets_a17_sandwich_board_pink_petals_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_pink_petals_top"
+    },
+    "kt_assets_a17_sandwich_board_pink_petals_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_pink_petals_top"
+    },
+    "kt_assets_a17_sandwich_board_pitcher_plant_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_pitcher_plant_top"
+    },
+    "kt_assets_a17_sandwich_board_pitcher_plant_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_pitcher_plant_top"
+    },
+    "kt_assets_a17_sandwich_board_poppy_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_poppy_top"
+    },
+    "kt_assets_a17_sandwich_board_poppy_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_poppy_top"
+    },
+    "kt_assets_a17_sandwich_board_sunflower_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_sunflower_top"
+    },
+    "kt_assets_a17_sandwich_board_sunflower_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_sunflower_top"
+    },
+    "kt_assets_a17_sandwich_board_torchflower_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_torchflower_top"
+    },
+    "kt_assets_a17_sandwich_board_torchflower_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_torchflower_top"
+    },
+    "kt_assets_a17_sandwich_board_tulip_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_tulip_top"
+    },
+    "kt_assets_a17_sandwich_board_tulip_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_tulip_top"
+    },
+    "kt_assets_a17_sandwich_board_wither_rose_top": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_wither_rose_top"
+    },
+    "kt_assets_a17_sandwich_board_wither_rose_assembled": {
+      "textures": "textures/blocks/generated/a17/kt_sandwich_board_wither_rose_top"
+    },
+    "kt_assets_a17_chalkboard_small": {
+      "textures": "textures/entity/java_port/deco/kt_small_chalkboard"
+    },
+    "kt_assets_a17_chalkboard_large": {
+      "textures": "textures/entity/java_port/deco/kt_large_chalkboard"
+    },
+    "kt_assets_a17_molotov": {
+      "textures": "textures/blocks/java_port/brew/kt_molotov"
+    },
+    "kt_assets_a17_water_bottle": {
+      "textures": "textures/blocks/java_port/brew/kt_water_bottle"
+    },
+    "kt_assets_a17_potion_bottle": {
+      "textures": "textures/blocks/java_port/brew/kt_potion_bottle"
+    },
+    "kt_assets_a17_honey_bottle": {
+      "textures": "textures/blocks/java_port/brew/kt_honey_bottle"
+    },
+    "kt_assets_a17_xp_bottle": {
+      "textures": "textures/blocks/java_port/brew/kt_xp_bottle"
+    },
+    "kt_assets_a17_dragon_breath_bottle": {
+      "textures": "textures/blocks/java_port/brew/kt_dragon_breath_bottle"
+    },
+    "kt_assets_a17_item_display_allium_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_allium_sandwich_board"
+    },
+    "kt_assets_a17_item_display_azure_bluet_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_azure_bluet_sandwich_board"
+    },
+    "kt_assets_a17_item_display_bar_cabinet": {
+      "textures": "textures/blocks/java_port/brew/kt_bar_cabinet"
+    },
+    "kt_assets_a17_item_display_bar_counter": {
+      "textures": "textures/blocks/java_port/deco/kt_bar_counter"
+    },
+    "kt_assets_a17_item_display_barrel": {
+      "textures": "textures/items/java_port/kt_barrel_1"
+    },
+    "kt_assets_a17_item_display_black_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_black"
+    },
+    "kt_assets_a17_item_display_black_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_black"
+    },
+    "kt_assets_a17_item_display_blue_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_blue"
+    },
+    "kt_assets_a17_item_display_blue_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_blue"
+    },
+    "kt_assets_a17_item_display_brown_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_brown"
+    },
+    "kt_assets_a17_item_display_brown_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_brown"
+    },
+    "kt_assets_a17_item_display_cellar_cabinet": {
+      "textures": "textures/blocks/java_port/brew/kt_bar_cabinet"
+    },
+    "kt_assets_a17_item_display_circular_rack": {
+      "textures": "textures/blocks/java_port/deco/kt_circular_rack"
+    },
+    "kt_assets_a17_item_display_cornflower_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_cornflower_sandwich_board"
+    },
+    "kt_assets_a17_item_display_cyan_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_cyan"
+    },
+    "kt_assets_a17_item_display_cyan_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_cyan"
+    },
+    "kt_assets_a17_item_display_glass_bar_cabinet": {
+      "textures": "textures/blocks/java_port/brew/kt_glass_bar_cabinet"
+    },
+    "kt_assets_a17_item_display_glassware_holder": {
+      "textures": "textures/blocks/java_port/deco/kt_glassware_holder"
+    },
+    "kt_assets_a17_item_display_grass_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_grass_sandwich_board"
+    },
+    "kt_assets_a17_item_display_gray_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_gray"
+    },
+    "kt_assets_a17_item_display_gray_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_gray"
+    },
+    "kt_assets_a17_item_display_green_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_green"
+    },
+    "kt_assets_a17_item_display_green_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_green"
+    },
+    "kt_assets_a17_item_display_light_blue_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_light_blue"
+    },
+    "kt_assets_a17_item_display_light_blue_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_light_blue"
+    },
+    "kt_assets_a17_item_display_light_gray_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_light_gray"
+    },
+    "kt_assets_a17_item_display_light_gray_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_light_gray"
+    },
+    "kt_assets_a17_item_display_lime_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_lime"
+    },
+    "kt_assets_a17_item_display_lime_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_lime"
+    },
+    "kt_assets_a17_item_display_magenta_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_magenta"
+    },
+    "kt_assets_a17_item_display_magenta_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_magenta"
+    },
+    "kt_assets_a17_item_display_orange_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_orange"
+    },
+    "kt_assets_a17_item_display_orange_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_orange"
+    },
+    "kt_assets_a17_item_display_orchid_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_orchid_sandwich_board"
+    },
+    "kt_assets_a17_item_display_peony_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_peony_sandwich_board"
+    },
+    "kt_assets_a17_item_display_pink_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_pink"
+    },
+    "kt_assets_a17_item_display_pink_petals_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_pink_petals_sandwich_board"
+    },
+    "kt_assets_a17_item_display_pink_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_pink"
+    },
+    "kt_assets_a17_item_display_pitcher_plant_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_pitcher_plant_sandwich_board"
+    },
+    "kt_assets_a17_item_display_poppy_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_poppy_sandwich_board"
+    },
+    "kt_assets_a17_item_display_pressing_tub": {
+      "textures": "textures/blocks/java_port/brew/kt_pressing_tub"
+    },
+    "kt_assets_a17_item_display_purple_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_purple"
+    },
+    "kt_assets_a17_item_display_purple_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_purple"
+    },
+    "kt_assets_a17_item_display_red_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_red"
+    },
+    "kt_assets_a17_item_display_red_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_red"
+    },
+    "kt_assets_a17_item_display_shaker": {
+      "textures": "textures/blocks/java_port/mixology/kt_shaker"
+    },
+    "kt_assets_a17_item_display_shaker_3d": {
+      "textures": "textures/blocks/java_port/mixology/kt_shaker"
+    },
+    "kt_assets_a17_item_display_string_lights_black": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_black"
+    },
+    "kt_assets_a17_item_display_string_lights_blue": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_blue"
+    },
+    "kt_assets_a17_item_display_string_lights_brown": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_brown"
+    },
+    "kt_assets_a17_item_display_string_lights_colorless": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_colorless"
+    },
+    "kt_assets_a17_item_display_string_lights_cyan": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_cyan"
+    },
+    "kt_assets_a17_item_display_string_lights_gray": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_gray"
+    },
+    "kt_assets_a17_item_display_string_lights_green": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_green"
+    },
+    "kt_assets_a17_item_display_string_lights_light_blue": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_light_blue"
+    },
+    "kt_assets_a17_item_display_string_lights_light_gray": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_light_gray"
+    },
+    "kt_assets_a17_item_display_string_lights_lime": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_lime"
+    },
+    "kt_assets_a17_item_display_string_lights_magenta": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_magenta"
+    },
+    "kt_assets_a17_item_display_string_lights_orange": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_orange"
+    },
+    "kt_assets_a17_item_display_string_lights_pink": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_pink"
+    },
+    "kt_assets_a17_item_display_string_lights_purple": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_purple"
+    },
+    "kt_assets_a17_item_display_string_lights_red": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_red"
+    },
+    "kt_assets_a17_item_display_string_lights_white": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_white"
+    },
+    "kt_assets_a17_item_display_string_lights_yellow": {
+      "textures": "textures/blocks/java_port/deco/string_lights/kt_yellow"
+    },
+    "kt_assets_a17_item_display_sunflower_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_sunflower_sandwich_board"
+    },
+    "kt_assets_a17_item_display_table": {
+      "textures": "textures/blocks/java_port/kt_table"
+    },
+    "kt_assets_a17_item_display_tilted_rack": {
+      "textures": "textures/blocks/java_port/deco/kt_tilted_rack"
+    },
+    "kt_assets_a17_item_display_torchflower_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_torchflower_sandwich_board"
+    },
+    "kt_assets_a17_item_display_trellis": {
+      "textures": "textures/blocks/java_port/plant/kt_trellis"
+    },
+    "kt_assets_a17_item_display_tulip_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_tulip_sandwich_board"
+    },
+    "kt_assets_a17_item_display_white_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_white"
+    },
+    "kt_assets_a17_item_display_white_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_white"
+    },
+    "kt_assets_a17_item_display_wither_rose_sandwich_board": {
+      "textures": "textures/blocks/generated/a17/kt_item_display_wither_rose_sandwich_board"
+    },
+    "kt_assets_a17_item_display_yellow_bar_stool": {
+      "textures": "textures/blocks/java_port/deco/bar_stool/kt_yellow"
+    },
+    "kt_assets_a17_item_display_yellow_sofa": {
+      "textures": "textures/blocks/java_port/deco/sofa/kt_yellow"
+    },
+    "kt_assets_a17_animation_block_deco_painting_tartaric_acid": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_deco_painting_tartaric_acid"
+    },
+    "kt_assets_a17_animation_block_mixology_depth_charge": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_mixology_depth_charge"
+    },
+    "kt_assets_a17_animation_block_mixology_mystery_cocktail": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_mixology_mystery_cocktail"
+    },
+    "kt_assets_a17_animation_block_mixology_nether_special": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_mixology_nether_special"
+    },
+    "kt_assets_a17_animation_block_mixology_sculk_special": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_mixology_sculk_special"
+    },
+    "kt_assets_a17_animation_block_mixology_signature_cocktail": {
+      "textures": "textures/blocks/generated/a17/kt_animated_block_mixology_signature_cocktail"
+    },
+    "kt_assets_a17_animation_item_depth_charge": {
+      "textures": "textures/blocks/generated/a17/kt_animated_item_depth_charge"
+    },
+    "kt_assets_a17_animation_item_mystery_cocktail": {
+      "textures": "textures/blocks/generated/a17/kt_animated_item_mystery_cocktail"
+    },
+    "kt_assets_a17_animation_item_nether_special": {
+      "textures": "textures/blocks/generated/a17/kt_animated_item_nether_special"
+    },
+    "kt_c6_stool_white": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_white_atlas"
+    },
+    "kt_c6_stool_light_gray": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_light_gray_atlas"
+    },
+    "kt_c6_stool_gray": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_gray_atlas"
+    },
+    "kt_c6_stool_black": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_black_atlas"
+    },
+    "kt_c6_stool_brown": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_brown_atlas"
+    },
+    "kt_c6_stool_red": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_red_atlas"
+    },
+    "kt_c6_stool_orange": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_orange_atlas"
+    },
+    "kt_c6_stool_yellow": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_yellow_atlas"
+    },
+    "kt_c6_stool_lime": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_lime_atlas"
+    },
+    "kt_c6_stool_green": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_green_atlas"
+    },
+    "kt_c6_stool_cyan": {
+      "textures": "textures/blocks/generated/a14/kt_bar_stool_cyan_atlas"
+    },
+    "kt_c6_stool_light_blue": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_light_blue_atlas"
+    },
+    "kt_c6_stool_blue": {
+      "textures": "textures/blocks/generated/a13/kt_bar_stool_blue_atlas"
+    },
+    "kt_c6_stool_purple": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_purple_atlas"
+    },
+    "kt_c6_stool_magenta": {
+      "textures": "textures/blocks/generated/a15/kt_bar_stool_magenta_atlas"
+    },
+    "kt_c6_stool_pink": {
+      "textures": "textures/blocks/generated/a16/kt_bar_stool_pink_atlas"
+    },
+    "kt_runtime_transparent": {
+      "textures": "textures/ui/runtime_port/runtime/kt_transparent"
+    },
+    "kt_runtime_board_blank": {
+      "textures": "textures/ui/runtime_port/runtime/kt_board_blank"
+    },
+    "kt_wild_grapevine_head": {
+      "textures": "textures/blocks/java_port/plant/kt_wild_grapevine"
+    },
+    "kt_wild_grapevine_body": {
+      "textures": "textures/blocks/java_port/plant/kt_wild_grapevine_plant"
+    },
+    "kt_white_sofa": {
+      "textures": "textures/blocks/kt_white_sofa"
+    },
+    "kt_white_counter_stool": {
+      "textures": "textures/blocks/kt_white_counter_stool"
+    },
+    "kt_light_gray_sofa": {
+      "textures": "textures/blocks/kt_light_gray_sofa"
+    },
+    "kt_light_gray_counter_stool": {
+      "textures": "textures/blocks/kt_light_gray_counter_stool"
+    },
+    "kt_gray_sofa": {
+      "textures": "textures/blocks/kt_gray_sofa"
+    },
+    "kt_gray_counter_stool": {
+      "textures": "textures/blocks/kt_gray_counter_stool"
+    },
+    "kt_black_sofa": {
+      "textures": "textures/blocks/kt_black_sofa"
+    },
+    "kt_black_counter_stool": {
+      "textures": "textures/blocks/kt_black_counter_stool"
+    },
+    "kt_brown_sofa": {
+      "textures": "textures/blocks/kt_brown_sofa"
+    },
+    "kt_brown_counter_stool": {
+      "textures": "textures/blocks/kt_brown_counter_stool"
+    },
+    "kt_red_sofa": {
+      "textures": "textures/blocks/kt_red_sofa"
+    },
+    "kt_red_counter_stool": {
+      "textures": "textures/blocks/kt_red_counter_stool"
+    },
+    "kt_orange_sofa": {
+      "textures": "textures/blocks/kt_orange_sofa"
+    },
+    "kt_orange_counter_stool": {
+      "textures": "textures/blocks/kt_orange_counter_stool"
+    },
+    "kt_yellow_sofa": {
+      "textures": "textures/blocks/kt_yellow_sofa"
+    },
+    "kt_yellow_counter_stool": {
+      "textures": "textures/blocks/kt_yellow_counter_stool"
+    },
+    "kt_lime_sofa": {
+      "textures": "textures/blocks/kt_lime_sofa"
+    },
+    "kt_lime_counter_stool": {
+      "textures": "textures/blocks/kt_lime_counter_stool"
+    },
+    "kt_green_sofa": {
+      "textures": "textures/blocks/kt_green_sofa"
+    },
+    "kt_green_counter_stool": {
+      "textures": "textures/blocks/kt_green_counter_stool"
+    },
+    "kt_cyan_sofa": {
+      "textures": "textures/blocks/kt_cyan_sofa"
+    },
+    "kt_cyan_counter_stool": {
+      "textures": "textures/blocks/kt_cyan_counter_stool"
+    },
+    "kt_light_blue_sofa": {
+      "textures": "textures/blocks/kt_light_blue_sofa"
+    },
+    "kt_light_blue_counter_stool": {
+      "textures": "textures/blocks/kt_light_blue_counter_stool"
+    },
+    "kt_blue_sofa": {
+      "textures": "textures/blocks/kt_blue_sofa"
+    },
+    "kt_blue_counter_stool": {
+      "textures": "textures/blocks/kt_blue_counter_stool"
+    },
+    "kt_purple_sofa": {
+      "textures": "textures/blocks/kt_purple_sofa"
+    },
+    "kt_purple_counter_stool": {
+      "textures": "textures/blocks/kt_purple_counter_stool"
+    },
+    "kt_magenta_sofa": {
+      "textures": "textures/blocks/kt_magenta_sofa"
+    },
+    "kt_magenta_counter_stool": {
+      "textures": "textures/blocks/kt_magenta_counter_stool"
+    },
+    "kt_pink_sofa": {
+      "textures": "textures/blocks/kt_pink_sofa"
+    },
+    "kt_pink_counter_stool": {
+      "textures": "textures/blocks/kt_pink_counter_stool"
+    },
+    "kt_barrel_break": {
+      "textures": "textures/entity/java_port/brew/kt_barrel"
+    },
+    "kt_runtime_item_display_plain_sandwich_board": {
+      "textures": "textures/items/runtime_icons/kt_plain_sandwich_board_display"
+    },
+    "kt_assets_a2_grapevine_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a2_grapevine_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a2_grapevine_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a2_grapevine_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_cross_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_cross_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_cross_up_down": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_grapevine_six_direction": {
+      "textures": "textures/blocks/java_port/plant/kt_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_cross_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_cross_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_cross_up_down": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_ice_grapevine_six_direction": {
+      "textures": "textures/blocks/java_port/plant/kt_ice_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_stage0": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_stage1": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_stage2": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_stage3": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_cross_east_west": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_cross_north_south": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_cross_up_down": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    },
+    "kt_assets_a3_gold_grapevine_six_direction": {
+      "textures": "textures/blocks/java_port/plant/kt_gold_grapevine_trellis"
+    }
+  }
+}

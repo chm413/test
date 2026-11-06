@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.kt_assets_a17.signature_glass": {
+      "geometry": "Geometry.glass",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.frames[math.mod(math.floor(q.life_time * 10), 6)]"
+      ],
+      "arrays": {
+        "textures": {
+          "Array.frames": [
+            "Texture.frame_0",
+            "Texture.frame_1",
+            "Texture.frame_2",
+            "Texture.frame_3",
+            "Texture.frame_4",
+            "Texture.frame_5"
+          ]
+        }
+      }
+    },
+    "controller.render.kt_assets_a17.signature_tint": {
+      "geometry": "Geometry.liquid",
+      "materials": [
+        {
+          "*": "Material.liquid"
+        }
+      ],
+      "textures": [
+        "Texture.mixtures"
+      ],
+      "uv_anim": {
+        "scale": [
+          0.0196078431372549,
+          0.022408963585434174
+        ],
+        "offset": [
+          "(math.mod((math.max(0, query.property('kt_art:palette')) * 6 + math.mod(math.floor(q.life_time * 10), 6)), 48) * 34 + 1) / 1632",
+          "(math.floor((math.max(0, query.property('kt_art:palette')) * 6 + math.mod(math.floor(q.life_time * 10), 6)) / 48) * 34 + 1) / 1428"
+        ]
+      },
+      "overlay_color": {
+        "r": "query.property('kt_art:red') / 255",
+        "g": "query.property('kt_art:green') / 255",
+        "b": "query.property('kt_art:blue') / 255",
+        "a": "query.property('kt_art:palette') < 0 ? 1 : 0"
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.kt_runtime.barrel_ingredients.float": {
+      "loop": true,
+      "bones": {
+        "item_0": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz0')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y0')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+0.0)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz0'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot0')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot0'),7201)*.1-360"
+          ]
+        },
+        "item_1": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz1')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y1')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+57.2957795)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz1'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot1')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot1'),7201)*.1-360"
+          ]
+        },
+        "item_2": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz2')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y2')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+114.591559)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz2'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot2')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot2'),7201)*.1-360"
+          ]
+        },
+        "item_3": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz3')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y3')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+171.8873385)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz3'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot3')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot3'),7201)*.1-360"
+          ]
+        },
+        "item_4": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz4')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y4')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+229.183118)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz4'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot4')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot4'),7201)*.1-360"
+          ]
+        },
+        "item_5": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz5')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y5')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+286.4788975)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz5'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot5')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot5'),7201)*.1-360"
+          ]
+        },
+        "item_6": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz6')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y6')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+343.774677)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz6'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot6')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot6'),7201)*.1-360"
+          ]
+        },
+        "item_7": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz7')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y7')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+401.07045650000003)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz7'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot7')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot7'),7201)*.1-360"
+          ]
+        },
+        "item_8": {
+          "position": [
+            "math.floor(q.property('kaleidoscope_tavern:xz8')/2048)/128-8",
+            "q.property('kaleidoscope_tavern:y8')+math.sin(q.life_time*114.591559+q.property('kaleidoscope_tavern:phase')+458.366236)*.32",
+            "math.mod(q.property('kaleidoscope_tavern:xz8'),2048)/128-8"
+          ],
+          "rotation": [
+            -90,
+            "math.floor(q.property('kaleidoscope_tavern:rot8')/7201)*.01-5",
+            "math.mod(q.property('kaleidoscope_tavern:rot8'),7201)*.1-360"
+          ]
+        }
+      }
+    }
+  }
+}

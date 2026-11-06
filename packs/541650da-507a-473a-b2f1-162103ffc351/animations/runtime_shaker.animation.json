@@ -1,0 +1,83 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.kt_mixology.player_idle": {
+      "animation_length": 0.05,
+      "bones": {
+        "rightarm": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.kt_mixology.hold_first": {
+      "loop": true,
+      "bones": {
+        "grip": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            27,
+            -39,
+            -159
+          ],
+          "scale": 0.625
+        }
+      }
+    },
+    "animation.kt_mixology.hold_third": {
+      "loop": true,
+      "bones": {
+        "grip": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            -20,
+            0,
+            0
+          ],
+          "scale": 0.625
+        }
+      }
+    },
+    "animation.kt_mixology.shake_first": {
+      "loop": true,
+      "bones": {
+        "grip": {
+          "position": [
+            0,
+            "-2.4 * math.sin(q.life_time * 1718.87338539247)",
+            0
+          ],
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.kt_mixology.player_shake": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "rightarm": {
+          "rotation": [
+            "-112.5 - 45 * math.sin(q.life_time * 1718.87338539247)",
+            0,
+            -9
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,861 @@
+{
+  "resource_pack_name": "tavern_a2",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "kt_a1_grape": {
+      "textures": "textures/items/java_port/kt_grape"
+    },
+    "kt_assets_a2_ice_grape": {
+      "textures": "textures/blocks/generated/ice_grape/kt_frame_00"
+    },
+    "kt_assets_a2_gold_grape": {
+      "textures": "textures/items/java_port/kt_gold_grape"
+    },
+    "kt_assets_a2_green_grape": {
+      "textures": "textures/items/java_port/kt_green_grape"
+    },
+    "kt_assets_a2_grape_bucket": {
+      "textures": "textures/items/java_port/kt_grape_bucket"
+    },
+    "kt_assets_a2_ice_grape_bucket": {
+      "textures": "textures/items/java_port/kt_ice_grape_bucket"
+    },
+    "kt_assets_a2_gold_grape_bucket": {
+      "textures": "textures/items/java_port/kt_gold_grape_bucket"
+    },
+    "kt_assets_a2_green_grape_bucket": {
+      "textures": "textures/items/java_port/kt_green_grape_bucket"
+    },
+    "kt_assets_a2_sweet_berries_bucket": {
+      "textures": "textures/items/runtime_port/kt_sweet_berries_bucket"
+    },
+    "kt_assets_a2_glow_berries_bucket": {
+      "textures": "textures/items/runtime_port/kt_glow_berries_bucket"
+    },
+    "kt_sourceicon_allium_garden": {
+      "textures": "textures/items/java_port/kt_allium_garden"
+    },
+    "kt_sourceicon_bell_pendant_lamp": {
+      "textures": "textures/items/java_port/kt_bell_pendant_lamp"
+    },
+    "kt_sourceicon_bloody_mary": {
+      "textures": "textures/items/java_port/kt_bloody_mary"
+    },
+    "kt_sourceicon_blue_pendant_lamp": {
+      "textures": "textures/items/java_port/kt_blue_pendant_lamp"
+    },
+    "kt_sourceicon_brandy": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_sourceicon_brass_heart": {
+      "textures": "textures/items/java_port/kt_brass_heart"
+    },
+    "kt_sourceicon_butterfly_incense": {
+      "textures": "textures/items/java_port/kt_butterfly_incense"
+    },
+    "kt_sourceicon_carignan": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_sourceicon_catnip_incense": {
+      "textures": "textures/items/java_port/kt_catnip_incense"
+    },
+    "kt_sourceicon_chalkboard": {
+      "textures": "textures/items/java_port/kt_chalkboard"
+    },
+    "kt_sourceicon_champagne": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_sourceicon_cr019_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_cr019"
+    },
+    "kt_sourceicon_david_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_david"
+    },
+    "kt_sourceicon_depth_charge": {
+      "textures": "textures/items/generated/a17/kt_icon_depth_charge"
+    },
+    "kt_sourceicon_emerald": {
+      "textures": "textures/items/java_port/kt_emerald"
+    },
+    "kt_sourceicon_empty_bottle": {
+      "textures": "textures/items/java_port/kt_empty_bottle"
+    },
+    "kt_sourceicon_empty_glassware": {
+      "textures": "textures/items/java_port/kt_empty_glassware"
+    },
+    "kt_sourceicon_father_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_father"
+    },
+    "kt_sourceicon_firefly_incense": {
+      "textures": "textures/items/java_port/kt_firefly_incense"
+    },
+    "kt_sourceicon_ginkgo_incense": {
+      "textures": "textures/items/java_port/kt_ginkgo_incense"
+    },
+    "kt_sourceicon_girl_with_pearl_earring_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_girl_with_pearl_earring"
+    },
+    "kt_sourceicon_glow_berries_bucket": {
+      "textures": "textures/items/java_port/kt_glow_berries_bucket"
+    },
+    "kt_sourceicon_glowflower_brew": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_sourceicon_godfather": {
+      "textures": "textures/items/java_port/kt_godfather"
+    },
+    "kt_sourceicon_gold_grape": {
+      "textures": "textures/items/java_port/kt_gold_grape"
+    },
+    "kt_sourceicon_gold_grape_bucket": {
+      "textures": "textures/items/java_port/kt_gold_grape_bucket"
+    },
+    "kt_sourceicon_grape": {
+      "textures": "textures/items/java_port/kt_grape"
+    },
+    "kt_sourceicon_grape_bucket": {
+      "textures": "textures/items/java_port/kt_grape_bucket"
+    },
+    "kt_sourceicon_grapevine": {
+      "textures": "textures/items/java_port/kt_grapevine"
+    },
+    "kt_sourceicon_grasshopper": {
+      "textures": "textures/items/java_port/kt_grasshopper"
+    },
+    "kt_sourceicon_great_wave_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_great_wave"
+    },
+    "kt_sourceicon_green_grape": {
+      "textures": "textures/items/java_port/kt_green_grape"
+    },
+    "kt_sourceicon_green_grape_bucket": {
+      "textures": "textures/items/java_port/kt_green_grape_bucket"
+    },
+    "kt_sourceicon_holder": {
+      "textures": "textures/items/java_port/kt_holder"
+    },
+    "kt_sourceicon_honey_wine": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_sourceicon_ice_grape": {
+      "textures": "textures/items/generated/a17/kt_icon_ice_grape"
+    },
+    "kt_sourceicon_ice_grape_bucket": {
+      "textures": "textures/items/java_port/kt_ice_grape_bucket"
+    },
+    "kt_sourceicon_ice_wine": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_sourceicon_luminous_bride": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_sourceicon_madame_shexiang": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_sourceicon_master_marisa_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_master_marisa"
+    },
+    "kt_sourceicon_miners_star": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_sourceicon_mojito": {
+      "textures": "textures/items/java_port/kt_mojito"
+    },
+    "kt_sourceicon_molotov": {
+      "textures": "textures/items/java_port/kt_molotov"
+    },
+    "kt_sourceicon_mona_lisa_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_mona_lisa"
+    },
+    "kt_sourceicon_mondrian_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_mondrian"
+    },
+    "kt_sourceicon_mother_snow": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_sourceicon_mystery_cocktail": {
+      "textures": "textures/items/generated/a17/kt_icon_mystery_cocktail"
+    },
+    "kt_sourceicon_nether_special": {
+      "textures": "textures/items/generated/a17/kt_icon_nether_special"
+    },
+    "kt_sourceicon_pine_incense": {
+      "textures": "textures/items/java_port/kt_pine_incense"
+    },
+    "kt_sourceicon_plum_wine": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_sourceicon_polaris_sweet_white": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_sourceicon_red_queen": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_sourceicon_riesling_dry_white": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_sourceicon_rum": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_sourceicon_sakura_incense": {
+      "textures": "textures/items/java_port/kt_sakura_incense"
+    },
+    "kt_sourceicon_sakura_wine": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_sourceicon_sauvignon_blanc_dry_white": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_sourceicon_screwdriver": {
+      "textures": "textures/items/java_port/kt_screwdriver"
+    },
+    "kt_sourceicon_sculk_special": {
+      "textures": "textures/items/java_port/kt_sculk_special"
+    },
+    "kt_sourceicon_sherry": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_sourceicon_signature_cocktail": {
+      "textures": "textures/items/animated/signature/kt_icon_default"
+    },
+    "kt_sourceicon_snow_incense": {
+      "textures": "textures/items/java_port/kt_snow_incense"
+    },
+    "kt_sourceicon_son_of_man_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_son_of_man"
+    },
+    "kt_sourceicon_spore_incense": {
+      "textures": "textures/items/java_port/kt_spore_incense"
+    },
+    "kt_sourceicon_starry_night_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_starry_night"
+    },
+    "kt_sourceicon_stepladder": {
+      "textures": "textures/items/java_port/kt_stepladder"
+    },
+    "kt_sourceicon_sunset_glow": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_sourceicon_sweet_berries_bucket": {
+      "textures": "textures/items/java_port/kt_sweet_berries_bucket"
+    },
+    "kt_sourceicon_sweet_berry_wine": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_sourceicon_tap": {
+      "textures": "textures/items/java_port/kt_tap"
+    },
+    "kt_sourceicon_tartaric_acid_painting": {
+      "textures": "textures/blocks/generated/a17/kt_icon_tartaric_acid_painting"
+    },
+    "kt_sourceicon_unknown_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_unknown"
+    },
+    "kt_sourceicon_van_gogh_self_portrait_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_van_gogh_self_portrait"
+    },
+    "kt_sourceicon_vinegar": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_sourceicon_vodka": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_sourceicon_watermelon_juice": {
+      "textures": "textures/items/java_port/kt_watermelon_juice"
+    },
+    "kt_sourceicon_whiskey": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_sourceicon_white_lady": {
+      "textures": "textures/items/java_port/kt_white_lady"
+    },
+    "kt_sourceicon_wine": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_sourceicon_yellow_pendant_lamp": {
+      "textures": "textures/items/java_port/kt_yellow_pendant_lamp"
+    },
+    "kt_sourceicon_ysbb_painting": {
+      "textures": "textures/blocks/java_port/deco/painting/kt_ysbb"
+    },
+    "kt_c1_grape": {
+      "textures": "textures/items/java_port/kt_grape"
+    },
+    "kt_c1_ice_grape": {
+      "textures": "textures/items/generated/a17/kt_icon_ice_grape"
+    },
+    "kt_c1_gold_grape": {
+      "textures": "textures/items/java_port/kt_gold_grape"
+    },
+    "kt_c1_green_grape": {
+      "textures": "textures/items/java_port/kt_green_grape"
+    },
+    "kt_c1_grape_bucket": {
+      "textures": "textures/items/java_port/kt_grape_bucket"
+    },
+    "kt_c1_ice_grape_bucket": {
+      "textures": "textures/items/java_port/kt_ice_grape_bucket"
+    },
+    "kt_c1_gold_grape_bucket": {
+      "textures": "textures/items/java_port/kt_gold_grape_bucket"
+    },
+    "kt_c1_green_grape_bucket": {
+      "textures": "textures/items/java_port/kt_green_grape_bucket"
+    },
+    "kt_c1_sweet_berries_bucket": {
+      "textures": "textures/items/java_port/kt_sweet_berries_bucket"
+    },
+    "kt_c1_glow_berries_bucket": {
+      "textures": "textures/items/java_port/kt_glow_berries_bucket"
+    },
+    "kt_c1_empty_bottle": {
+      "textures": "textures/items/java_port/kt_empty_bottle"
+    },
+    "kt_c1_guidebook": {
+      "textures": "textures/items/kt_guidebook"
+    },
+    "kt_c1_recipe_book": {
+      "textures": "textures/items/book_writable"
+    },
+    "kt_c1_barrel": {
+      "textures": "textures/items/java_port/kt_barrel"
+    },
+    "kt_c1_brandy_q1": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_brandy_q2": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_brandy_q3": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_brandy_q4": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_brandy_q5": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_brandy_q6": {
+      "textures": "textures/items/java_port/kt_brandy"
+    },
+    "kt_c1_carignan_q1": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_carignan_q2": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_carignan_q3": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_carignan_q4": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_carignan_q5": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_carignan_q6": {
+      "textures": "textures/items/java_port/kt_carignan"
+    },
+    "kt_c1_champagne_q1": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_champagne_q2": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_champagne_q3": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_champagne_q4": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_champagne_q5": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_champagne_q6": {
+      "textures": "textures/items/java_port/kt_champagne"
+    },
+    "kt_c1_glowflower_brew_q1": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_glowflower_brew_q2": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_glowflower_brew_q3": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_glowflower_brew_q4": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_glowflower_brew_q5": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_glowflower_brew_q6": {
+      "textures": "textures/items/java_port/kt_glowflower_brew"
+    },
+    "kt_c1_honey_wine_q1": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_honey_wine_q2": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_honey_wine_q3": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_honey_wine_q4": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_honey_wine_q5": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_honey_wine_q6": {
+      "textures": "textures/items/java_port/kt_honey_wine"
+    },
+    "kt_c1_ice_wine_q1": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_ice_wine_q2": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_ice_wine_q3": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_ice_wine_q4": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_ice_wine_q5": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_ice_wine_q6": {
+      "textures": "textures/items/java_port/kt_ice_wine"
+    },
+    "kt_c1_luminous_bride_q1": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_luminous_bride_q2": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_luminous_bride_q3": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_luminous_bride_q4": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_luminous_bride_q5": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_luminous_bride_q6": {
+      "textures": "textures/items/java_port/kt_luminous_bride"
+    },
+    "kt_c1_madame_shexiang_q1": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_madame_shexiang_q2": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_madame_shexiang_q3": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_madame_shexiang_q4": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_madame_shexiang_q5": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_madame_shexiang_q6": {
+      "textures": "textures/items/java_port/kt_madame_shexiang"
+    },
+    "kt_c1_miners_star_q1": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_miners_star_q2": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_miners_star_q3": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_miners_star_q4": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_miners_star_q5": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_miners_star_q6": {
+      "textures": "textures/items/java_port/kt_miners_star"
+    },
+    "kt_c1_mother_snow_q1": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_mother_snow_q2": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_mother_snow_q3": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_mother_snow_q4": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_mother_snow_q5": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_mother_snow_q6": {
+      "textures": "textures/items/java_port/kt_mother_snow"
+    },
+    "kt_c1_plum_wine_q1": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_plum_wine_q2": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_plum_wine_q3": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_plum_wine_q4": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_plum_wine_q5": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_plum_wine_q6": {
+      "textures": "textures/items/java_port/kt_plum_wine"
+    },
+    "kt_c1_polaris_sweet_white_q1": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_polaris_sweet_white_q2": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_polaris_sweet_white_q3": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_polaris_sweet_white_q4": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_polaris_sweet_white_q5": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_polaris_sweet_white_q6": {
+      "textures": "textures/items/java_port/kt_polaris_sweet_white"
+    },
+    "kt_c1_red_queen_q1": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_red_queen_q2": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_red_queen_q3": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_red_queen_q4": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_red_queen_q5": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_red_queen_q6": {
+      "textures": "textures/items/java_port/kt_red_queen"
+    },
+    "kt_c1_riesling_dry_white_q1": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_riesling_dry_white_q2": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_riesling_dry_white_q3": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_riesling_dry_white_q4": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_riesling_dry_white_q5": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_riesling_dry_white_q6": {
+      "textures": "textures/items/java_port/kt_riesling_dry_white"
+    },
+    "kt_c1_rum_q1": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_rum_q2": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_rum_q3": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_rum_q4": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_rum_q5": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_rum_q6": {
+      "textures": "textures/items/java_port/kt_rum"
+    },
+    "kt_c1_sakura_wine_q1": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sakura_wine_q2": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sakura_wine_q3": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sakura_wine_q4": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sakura_wine_q5": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sakura_wine_q6": {
+      "textures": "textures/items/java_port/kt_sakura_wine"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q1": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q2": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q3": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q4": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q5": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sauvignon_blanc_dry_white_q6": {
+      "textures": "textures/items/java_port/kt_sauvignon_blanc_dry_white"
+    },
+    "kt_c1_sherry_q1": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sherry_q2": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sherry_q3": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sherry_q4": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sherry_q5": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sherry_q6": {
+      "textures": "textures/items/java_port/kt_sherry"
+    },
+    "kt_c1_sunset_glow_q1": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sunset_glow_q2": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sunset_glow_q3": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sunset_glow_q4": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sunset_glow_q5": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sunset_glow_q6": {
+      "textures": "textures/items/java_port/kt_sunset_glow"
+    },
+    "kt_c1_sweet_berry_wine_q1": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_sweet_berry_wine_q2": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_sweet_berry_wine_q3": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_sweet_berry_wine_q4": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_sweet_berry_wine_q5": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_sweet_berry_wine_q6": {
+      "textures": "textures/items/java_port/kt_sweet_berry_wine"
+    },
+    "kt_c1_vinegar_q1": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vinegar_q2": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vinegar_q3": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vinegar_q4": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vinegar_q5": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vinegar_q6": {
+      "textures": "textures/items/java_port/kt_vinegar"
+    },
+    "kt_c1_vodka_q1": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_vodka_q2": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_vodka_q3": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_vodka_q4": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_vodka_q5": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_vodka_q6": {
+      "textures": "textures/items/java_port/kt_vodka"
+    },
+    "kt_c1_whiskey_q1": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_whiskey_q2": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_whiskey_q3": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_whiskey_q4": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_whiskey_q5": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_whiskey_q6": {
+      "textures": "textures/items/java_port/kt_whiskey"
+    },
+    "kt_c1_wine_q1": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c1_wine_q2": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c1_wine_q3": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c1_wine_q4": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c1_wine_q5": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c1_wine_q6": {
+      "textures": "textures/items/java_port/kt_wine"
+    },
+    "kt_c2_grapevine": {
+      "textures": "textures/items/java_port/kt_grapevine"
+    },
+    "kt_c3_shaker": {
+      "textures": "textures/items/java_port/kt_shaker"
+    },
+    "kt_c3_empty_glassware": {
+      "textures": "textures/items/java_port/kt_empty_glassware"
+    },
+    "kt_c3_white_lady": {
+      "textures": "textures/items/java_port/kt_white_lady"
+    },
+    "kt_c3_emerald": {
+      "textures": "textures/items/java_port/kt_emerald"
+    },
+    "kt_c3_brass_heart": {
+      "textures": "textures/items/java_port/kt_brass_heart"
+    },
+    "kt_c3_godfather": {
+      "textures": "textures/items/java_port/kt_godfather"
+    },
+    "kt_c3_grasshopper": {
+      "textures": "textures/items/java_port/kt_grasshopper"
+    },
+    "kt_c3_screwdriver": {
+      "textures": "textures/items/java_port/kt_screwdriver"
+    },
+    "kt_c3_mojito": {
+      "textures": "textures/items/java_port/kt_mojito"
+    },
+    "kt_c3_allium_garden": {
+      "textures": "textures/items/java_port/kt_allium_garden"
+    },
+    "kt_c3_depth_charge": {
+      "textures": "textures/items/family/kt_c3_depth_charge"
+    },
+    "kt_c3_nether_special": {
+      "textures": "textures/items/family/kt_c3_nether_special"
+    },
+    "kt_c3_bloody_mary": {
+      "textures": "textures/items/java_port/kt_bloody_mary"
+    },
+    "kt_c3_sculk_special": {
+      "textures": "textures/items/java_port/kt_sculk_special"
+    },
+    "kt_c3_signature_cocktail": {
+      "textures": "textures/items/animated/signature/kt_icon_default"
+    },
+    "kt_c3_mystery_cocktail": {
+      "textures": "textures/items/family/kt_c3_mystery_cocktail"
+    },
+    "kt_c6_string_lights_colorless": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_colorless"
+    },
+    "kt_c6_string_lights_white": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_white"
+    },
+    "kt_c6_string_lights_light_gray": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_light_gray"
+    },
+    "kt_c6_string_lights_gray": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_gray"
+    },
+    "kt_c6_string_lights_black": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_black"
+    },
+    "kt_c6_string_lights_brown": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_brown"
+    },
+    "kt_c6_string_lights_red": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_red"
+    },
+    "kt_c6_string_lights_orange": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_orange"
+    },
+    "kt_c6_string_lights_yellow": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_yellow"
+    },
+    "kt_c6_string_lights_lime": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_lime"
+    },
+    "kt_c6_string_lights_green": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_green"
+    },
+    "kt_c6_string_lights_cyan": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_cyan"
+    },
+    "kt_c6_string_lights_light_blue": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_light_blue"
+    },
+    "kt_c6_string_lights_blue": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_blue"
+    },
+    "kt_c6_string_lights_purple": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_purple"
+    },
+    "kt_c6_string_lights_magenta": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_magenta"
+    },
+    "kt_c6_string_lights_pink": {
+      "textures": "textures/items/runtime_icons/kt_string_lights_pink"
+    },
+    "kt_signature_dyed": {
+      "textures": "textures/items/animated/signature/kt_icon_dyed.tga"
+    }
+  }
+}

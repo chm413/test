@@ -2036,3 +2036,5 @@ entity.kaleidoscope_tavern:rig_liquid_barrel_lava_visual.name=Brewing Barrel —
 
 ## First-join welcome message
 kaleidoscope_tavern.message.welcome=§9Welcome! §7You've been given a §lKaleidoscope Tavern Guidebook§r§7 - use it to learn about everything Kaleidoscope Tavern has to offer!
+
+## packrelay integration probe 20261106T233441Z

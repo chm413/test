@@ -1,7 +1,0 @@
-{
-  "format_version": "1.16.100",
-  "minecraft:texture_set": {
-    "color": "kt_glow_berries_juice_still_machine",
-    "metalness_emissive_roughness": "kt_glow_berries_juice_still_mer"
-  }
-}

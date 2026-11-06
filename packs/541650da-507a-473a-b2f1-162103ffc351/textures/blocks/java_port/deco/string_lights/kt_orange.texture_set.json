@@ -1,7 +1,0 @@
-{
-  "format_version": "1.16.100",
-  "minecraft:texture_set": {
-    "color": "kt_orange",
-    "metalness_emissive_roughness": "kt_orange_mer"
-  }
-}
